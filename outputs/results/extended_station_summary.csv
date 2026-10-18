@@ -1,0 +1,1338 @@
+station_id,charger_type,capacity,core_for_other_type,sep_missing_percent,oct_missing_percent,nov_missing_percent,dec_missing_percent,jan_missing_percent,feb_missing_percent,valid_rows,valid_percent,longest_valid_days,type_match,stuck_percent,stuck_feed,nearest_core_km,category
+2292,fast,2,True,0.0,0.07,0.0,0.0,0.0,0.0,49674,95.29,29.08,True,52.51,True,3.77,clearly bad
+1637,fast,2,True,0.0,0.07,1.33,0.06,0.0,0.0,49559,95.07,29.08,True,80.57,True,5.83,clearly bad
+2095,fast,3,False,0.0,0.07,1.33,0.06,0.0,0.0,49559,95.07,29.08,True,100.0,True,3.94,clearly bad
+1259,fast,8,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,False,99.73,True,13.12,clearly bad
+1955,fast,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,False,99.97,True,1.75,clearly bad
+2233,fast,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,False,99.97,True,2.37,clearly bad
+1266,fast,4,False,49.59,0.07,1.33,0.06,0.0,0.0,45274,86.85,29.08,True,43.35,False,1.07,missing history but useful periods
+2059,fast,26,False,20.34,0.75,1.75,4.08,12.47,14.47,45299,86.9,16.87,True,0.0,False,3.65,missing history but useful periods
+1830,fast,20,False,12.47,12.4,12.31,0.07,12.42,12.7,44575,85.51,21.92,True,0.0,False,3.38,missing history but useful periods
+2011,fast,20,False,12.47,12.44,12.52,12.5,12.52,12.45,43498,83.44,0.76,True,0.0,False,4.81,"mostly missing, no long useful period"
+1349,fast,4,False,0.0,0.07,1.33,0.06,0.0,83.07,42862,82.22,29.08,True,22.14,False,10.17,missing history but useful periods
+2370,fast,40,False,12.2,0.56,40.72,28.33,0.0,2.44,42462,81.46,21.42,True,0.0,False,3.55,missing history but useful periods
+2667,fast,45,False,20.71,15.0,12.72,12.48,12.46,12.56,42623,81.77,0.68,True,0.0,False,11.8,"mostly missing, no long useful period"
+1263,fast,26,False,20.74,15.36,12.75,12.47,12.54,12.49,42596,81.71,0.67,True,0.0,False,6.33,"mostly missing, no long useful period"
+1075,fast,14,False,20.68,15.48,16.15,12.56,12.58,12.6,42301,81.15,0.67,True,0.0,False,2.68,"mostly missing, no long useful period"
+1057,fast,17,False,20.75,15.57,20.08,12.49,12.51,12.51,41973,80.52,0.67,True,0.0,False,4.34,"mostly missing, no long useful period"
+1261,fast,12,False,0.0,0.0,0.0,0.0,32.05,96.88,39010,74.84,29.08,True,53.53,True,6.35,clearly bad
+1146,fast,8,False,0.0,0.0,0.0,0.01,32.05,96.88,39010,74.84,29.08,True,19.82,False,2.61,missing history but useful periods
+1741,fast,2,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,7.39,False,3.36,missing history but useful periods
+1303,fast,30,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,39.67,False,3.38,missing history but useful periods
+1126,fast,6,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,30.82,False,2.07,missing history but useful periods
+2675,fast,10,False,0.0,0.07,0.0,0.0,32.05,96.9,39003,74.82,29.08,True,1.33,False,14.57,missing history but useful periods
+1710,fast,2,False,0.0,0.07,0.0,0.0,32.05,96.9,39003,74.82,29.08,True,7.32,False,2.91,missing history but useful periods
+2674,fast,4,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,2.57,False,13.92,missing history but useful periods
+1040,fast,10,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,0.0,False,0.5,missing history but useful periods
+1008,fast,6,False,0.0,0.07,0.0,0.04,32.05,96.89,39003,74.82,29.08,True,11.61,False,2.02,missing history but useful periods
+2663,fast,27,False,20.88,20.8,20.87,20.88,20.9,27.42,38820,74.47,0.67,True,0.0,False,12.44,"mostly missing, no long useful period"
+1642,fast,10,False,4.18,4.03,2.14,0.06,32.05,96.88,38158,73.2,21.92,True,0.0,False,5.28,missing history but useful periods
+2326,fast,60,False,0.0,0.07,0.0,0.01,42.25,96.99,38094,73.08,29.08,True,0.0,False,4.02,missing history but useful periods
+1300,fast,7,False,12.5,7.22,0.3,0.06,32.05,96.88,37428,71.8,21.92,True,67.84,True,4.42,clearly bad
+2349,fast,6,False,12.56,18.62,28.59,29.16,29.16,29.17,37420,71.78,0.67,True,0.0,False,4.94,"mostly missing, no long useful period"
+1330,fast,53,False,12.55,9.99,1.71,0.11,32.05,97.09,37033,71.04,21.92,True,0.0,False,3.47,missing history but useful periods
+1145,fast,45,False,12.53,11.95,1.3,0.06,32.05,96.95,36917,70.82,21.92,True,22.42,False,2.61,missing history but useful periods
+1004,fast,5,False,20.84,21.47,16.18,29.26,29.2,38.22,36840,70.67,11.42,True,0.0,False,2.68,missing history but useful periods
+2239,fast,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,False,99.31,True,2.49,clearly bad
+1023,fast,32,False,20.79,23.86,26.86,29.12,29.1,29.24,36494,70.01,0.67,True,0.0,False,4.37,"mostly missing, no long useful period"
+1274,fast,32,False,20.9,23.82,26.93,29.12,29.12,29.27,36479,69.98,0.67,True,0.0,False,1.76,"mostly missing, no long useful period"
+1723,fast,38,False,20.89,23.81,26.85,29.25,29.27,29.19,36475,69.97,0.67,True,0.0,False,6.16,"mostly missing, no long useful period"
+1682,fast,58,False,20.95,23.38,28.91,29.22,29.19,29.23,36339,69.71,0.67,True,0.0,False,3.27,"mostly missing, no long useful period"
+1050,fast,5,False,20.87,23.85,28.89,29.2,29.17,29.25,36304,69.64,0.67,True,0.0,False,0.67,"mostly missing, no long useful period"
+2041,fast,54,False,20.9,25.62,28.92,29.23,29.18,29.2,36175,69.4,0.68,True,0.0,False,0.87,"mostly missing, no long useful period"
+2518,fast,22,False,21.03,28.9,28.97,29.16,29.13,29.19,35887,68.84,0.67,True,0.0,False,3.33,"mostly missing, no long useful period"
+1045,fast,36,False,21.08,28.95,28.99,29.21,29.2,29.22,35870,68.81,0.67,True,0.0,False,4.79,"mostly missing, no long useful period"
+2614,fast,4,False,12.5,12.54,12.49,12.51,40.55,97.22,34153,65.52,0.67,True,0.0,False,9.58,"mostly missing, no long useful period"
+2612,fast,5,False,12.49,12.54,12.51,12.52,40.55,97.22,34153,65.52,0.67,True,0.0,False,9.44,"mostly missing, no long useful period"
+2609,fast,20,False,12.51,12.56,12.52,12.5,40.51,97.22,34153,65.52,0.67,True,0.0,False,8.93,"mostly missing, no long useful period"
+2613,fast,7,False,12.51,12.53,12.51,12.51,40.54,97.22,34154,65.52,0.67,True,0.0,False,9.48,"mostly missing, no long useful period"
+1200,fast,40,False,13.63,12.7,12.44,12.52,40.54,97.16,34057,65.33,0.76,True,0.0,False,4.33,"mostly missing, no long useful period"
+1579,fast,4,False,0.0,0.07,1.33,0.04,97.31,97.99,33008,63.32,29.08,True,13.69,False,5.35,missing history but useful periods
+1851,fast,8,False,20.74,15.03,12.79,12.56,40.55,97.22,33287,63.86,0.67,True,0.0,False,3.01,"mostly missing, no long useful period"
+1930,fast,2,False,0.0,0.07,1.33,2.88,97.73,97.66,32758,62.84,29.08,True,18.29,False,3.57,missing history but useful periods
+2617,fast,38,False,20.81,18.29,12.87,12.5,40.55,97.22,33003,63.31,0.67,True,0.0,False,3.22,"mostly missing, no long useful period"
+2644,fast,6,False,20.79,18.55,12.82,12.53,40.56,97.22,32979,63.27,0.67,True,0.0,False,9.21,"mostly missing, no long useful period"
+2297,fast,8,False,100.0,89.5,8.15,0.13,0.0,0.0,32948,63.21,21.92,True,2.95,False,1.53,missing history but useful periods
+2186,fast,87,False,4.19,2.68,0.07,11.94,97.7,97.9,31498,60.42,21.38,True,0.0,False,0.98,missing history but useful periods
+1162,fast,36,False,36.17,20.47,13.56,12.5,40.57,97.27,31430,60.29,0.67,True,0.0,False,2.25,"mostly missing, no long useful period"
+1408,fast,10,False,20.83,20.47,12.92,17.45,51.7,97.38,31400,60.24,0.67,True,0.0,False,3.95,"mostly missing, no long useful period"
+1529,fast,57,False,20.76,20.78,22.07,20.82,43.79,97.56,31027,59.52,0.68,True,0.0,False,5.59,"mostly missing, no long useful period"
+1251,fast,24,False,20.83,20.8,20.84,20.84,46.17,97.51,30922,59.32,0.67,True,0.0,False,0.72,"mostly missing, no long useful period"
+2193,fast,28,False,20.86,20.82,20.88,20.81,46.2,97.52,30913,59.3,0.67,True,0.0,False,1.64,"mostly missing, no long useful period"
+1378,fast,8,False,100.0,89.65,11.48,0.04,0.0,20.97,30959,59.39,21.92,True,0.0,False,10.25,missing history but useful periods
+2345,fast,9,False,51.62,90.18,93.02,3.07,0.0,0.0,28974,55.58,21.92,True,0.0,False,4.8,missing history but useful periods
+1838,fast,20,False,29.11,29.26,29.16,29.2,38.0,97.5,28912,55.46,0.63,True,0.0,False,3.1,"mostly missing, no long useful period"
+1078,fast,50,False,20.93,23.95,28.87,29.17,51.84,97.53,28778,55.21,0.67,True,0.0,False,4.77,"mostly missing, no long useful period"
+2098,fast,86,False,20.8,22.67,0.78,12.05,97.75,97.72,28507,54.69,19.64,True,0.0,False,1.54,missing history but useful periods
+1106,fast,50,False,20.96,25.62,28.94,29.18,51.8,97.53,28634,54.93,0.67,True,0.0,False,1.34,"mostly missing, no long useful period"
+1046,fast,30,False,20.94,25.6,28.92,29.19,51.81,97.69,28629,54.92,0.67,True,0.0,False,3.38,"mostly missing, no long useful period"
+2190,fast,12,False,20.91,26.47,28.88,29.17,51.84,97.56,28572,54.81,0.67,True,0.0,False,4.11,"mostly missing, no long useful period"
+2077,fast,12,False,29.19,29.17,29.18,29.13,51.8,97.53,27680,53.1,0.64,True,0.0,False,3.39,"mostly missing, no long useful period"
+1376,fast,12,False,32.87,90.19,93.36,47.5,0.0,0.0,26614,51.06,18.12,True,20.99,False,3.4,missing history but useful periods
+1348,fast,9,False,32.86,90.19,93.45,47.5,0.0,0.0,26614,51.06,18.12,True,49.87,False,1.29,missing history but useful periods
+2331,fast,20,False,29.17,29.12,29.18,29.14,58.93,97.76,27047,51.89,0.64,True,0.0,False,4.12,"mostly missing, no long useful period"
+1855,fast,96,False,83.89,22.23,16.98,16.75,43.43,97.28,26300,50.45,0.71,True,0.0,False,2.98,"mostly missing, no long useful period"
+1148,fast,15,False,46.19,90.85,93.34,47.5,0.0,0.0,25462,48.85,15.57,True,2.24,False,2.49,missing history but useful periods
+1025,fast,24,False,20.84,23.68,28.91,29.21,87.14,97.92,25639,49.18,0.67,True,0.0,False,4.36,"mostly missing, no long useful period"
+1053,fast,6,False,49.65,91.19,93.36,47.51,0.0,0.0,25173,48.29,15.56,True,20.87,False,0.89,missing history but useful periods
+1824,fast,12,False,49.66,91.22,93.37,47.65,0.0,0.0,25166,48.28,15.57,True,80.21,True,6.08,clearly bad
+2047,fast,19,False,20.73,23.84,26.83,37.3,99.07,98.05,24049,46.13,0.67,True,0.0,False,4.18,"mostly missing, no long useful period"
+1157,fast,20,False,20.81,23.91,26.89,37.38,98.97,98.29,23999,46.04,0.67,True,0.0,False,2.56,"mostly missing, no long useful period"
+1024,fast,38,False,20.84,23.66,28.94,37.33,99.03,98.05,23877,45.8,0.67,True,0.0,False,4.36,"mostly missing, no long useful period"
+1432,fast,8,False,100.0,89.53,23.97,0.1,32.05,96.88,20909,40.11,21.92,True,77.04,True,0.2,clearly bad
+2654,fast,36,False,100.0,98.16,95.02,21.43,12.5,12.6,21557,41.35,0.67,True,0.0,False,9.97,"mostly missing, no long useful period"
+1092,fast,6,False,100.0,100.0,97.27,47.5,0.0,0.0,21328,40.91,15.57,True,98.65,True,0.79,clearly bad
+2638,fast,12,False,100.0,100.0,97.33,47.5,0.0,0.0,21328,40.91,15.57,True,98.67,True,9.59,clearly bad
+1987,fast,38,False,12.25,0.6,40.75,99.15,99.85,100.0,19697,37.79,12.52,True,0.0,False,3.6,missing history but useful periods
+1133,fast,12,False,100.0,100.0,99.8,54.59,0.0,0.0,20682,39.68,13.58,True,1.53,False,2.91,missing history but useful periods
+1436,fast,8,False,0.0,0.07,68.46,99.18,100.0,100.0,18282,35.07,29.08,True,93.72,True,0.32,clearly bad
+1188,fast,20,False,100.0,91.66,44.78,12.66,40.52,97.22,17291,33.17,0.67,True,0.0,False,4.86,"mostly missing, no long useful period"
+2187,fast,87,False,100.0,100.0,99.65,87.82,0.0,0.0,17755,34.06,13.58,True,0.0,False,0.98,missing history but useful periods
+1269,fast,66,False,100.0,90.65,29.11,29.28,51.86,97.53,16466,31.59,0.63,True,0.0,False,5.12,"mostly missing, no long useful period"
+1108,fast,2,False,13.16,12.57,92.57,99.47,100.0,100.0,13946,26.75,29.08,True,56.08,True,4.49,clearly bad
+2422,fast,9,False,100.0,100.0,100.0,99.65,38.23,0.0,13266,25.45,13.58,True,0.0,False,2.19,missing history but useful periods
+2048,fast,19,False,100.0,100.0,99.66,91.63,29.14,29.34,12558,24.09,0.63,True,0.0,False,4.18,"mostly missing, no long useful period"
+1026,fast,62,False,100.0,100.0,99.7,99.85,40.82,29.2,10796,20.71,0.63,True,0.0,False,4.36,"mostly missing, no long useful period"
+2031,fast,28,False,90.78,99.87,12.67,93.48,78.05,98.4,9786,18.77,0.67,True,0.0,False,4.91,"mostly missing, no long useful period"
+2611,fast,40,False,20.84,68.73,94.34,100.0,100.0,100.0,8513,16.33,0.67,True,0.0,False,4.44,"mostly missing, no long useful period"
+2099,fast,70,False,100.0,100.0,99.65,90.49,5.44,97.07,9206,17.66,10.12,True,0.0,False,1.54,missing history but useful periods
+2100,fast,70,False,100.0,100.0,100.0,99.71,92.83,2.38,8240,15.81,6.54,True,0.0,False,1.54,"mostly missing, no long useful period"
+1158,fast,20,False,100.0,100.0,99.65,91.62,29.14,94.41,7324,14.05,0.63,True,0.0,False,2.56,"mostly missing, no long useful period"
+1811,fast,15,False,49.65,91.27,94.71,100.0,100.0,100.0,3850,7.39,13.12,True,5.42,False,5.59,missing history but useful periods
+1159,fast,20,False,100.0,100.0,100.0,99.69,98.98,32.55,5348,10.26,0.63,True,0.0,False,2.56,"mostly missing, no long useful period"
+1248,fast,10,False,100.0,100.0,100.0,99.85,98.68,36.88,4936,9.47,0.92,True,0.0,False,0.04,"mostly missing, no long useful period"
+2038,fast,1,False,100.0,100.0,99.68,99.71,47.91,97.85,4569,8.76,8.96,True,0.0,False,2.76,missing history but useful periods
+2028,fast,16,False,100.0,100.0,100.0,99.71,61.1,98.41,3390,6.5,0.67,True,0.0,False,4.91,"mostly missing, no long useful period"
+2030,fast,28,False,100.0,100.0,100.0,100.0,61.11,98.3,3365,6.46,0.67,True,0.0,False,4.91,"mostly missing, no long useful period"
+2682,fast,4,False,100.0,100.0,100.0,100.0,98.71,69.8,2306,4.42,7.67,True,48.27,False,31.34,missing history but useful periods
+2325,fast,60,False,100.0,100.0,100.0,100.0,87.53,99.28,975,1.87,1.42,True,0.0,False,4.02,"mostly missing, no long useful period"
+1005,fast,5,False,100.0,100.0,100.0,100.0,99.45,88.64,797,1.53,0.62,True,0.0,False,2.68,"mostly missing, no long useful period"
+2332,fast,20,False,100.0,100.0,100.0,100.0,91.45,99.68,682,1.31,0.62,True,0.0,False,4.12,"mostly missing, no long useful period"
+2029,fast,16,False,100.0,100.0,99.68,100.0,92.51,99.64,667,1.28,0.67,True,0.0,False,4.91,"mostly missing, no long useful period"
+2371,fast,40,False,100.0,100.0,100.0,100.0,98.9,95.57,270,0.52,0.73,True,0.0,False,3.55,"mostly missing, no long useful period"
+2060,fast,26,False,100.0,100.0,100.0,100.0,99.31,95.41,234,0.45,0.21,True,0.0,False,3.65,"mostly missing, no long useful period"
+1267,fast,4,False,100.0,100.0,100.0,100.0,100.0,97.48,64,0.12,0.05,True,0.0,False,1.07,"mostly missing, no long useful period"
+1463,fast,22,False,100.0,100.0,100.0,100.0,100.0,97.64,51,0.1,0.05,True,0.0,False,5.06,"mostly missing, no long useful period"
+1030,fast,78,False,100.0,100.0,100.0,100.0,100.0,97.83,51,0.1,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1489,fast,72,False,98.68,99.71,99.7,100.0,100.0,100.0,87,0.17,0.21,True,0.0,False,6.56,"mostly missing, no long useful period"
+2298,fast,8,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,1.53,"mostly missing, no long useful period"
+1379,fast,8,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,10.25,"mostly missing, no long useful period"
+1404,fast,6,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2024,fast,6,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1438,fast,2,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1094,fast,6,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1638,fast,2,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,5.83,"mostly missing, no long useful period"
+1350,fast,4,False,100.0,100.0,100.0,100.0,100.0,98.04,55,0.11,0.05,True,0.0,False,10.17,"mostly missing, no long useful period"
+1156,fast,7,False,100.0,100.0,100.0,100.0,100.0,98.04,53,0.1,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1580,fast,4,False,100.0,100.0,100.0,100.0,100.0,98.07,55,0.11,0.05,True,0.0,False,5.35,"mostly missing, no long useful period"
+2410,fast,4,False,100.0,100.0,100.0,100.0,100.0,98.05,53,0.1,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2181,fast,12,False,100.0,100.0,100.0,100.0,100.0,98.15,42,0.08,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1012,fast,65,False,100.0,100.0,100.0,100.0,100.0,98.15,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1590,fast,6,False,100.0,100.0,100.0,100.0,100.0,98.15,42,0.08,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1215,fast,6,False,100.0,100.0,100.0,100.0,100.0,98.15,42,0.08,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1600,fast,4,False,100.0,100.0,100.0,100.0,100.0,98.15,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1010,fast,72,False,100.0,100.0,100.0,100.0,100.0,98.18,42,0.08,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2390,fast,3,False,100.0,100.0,100.0,100.0,100.0,98.34,40,0.08,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2125,fast,1,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,3.69,no valid data
+2291,fast,2,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,3.77,no valid data
+1722,fast,38,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,6.16,no valid data
+1681,fast,58,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,3.27,no valid data
+1663,fast,6,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+2138,fast,37,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1039,fast,4,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+2668,slow,1,False,0.0,0.07,0.0,0.0,0.0,0.0,49674,95.29,29.08,True,100.0,True,1.48,clearly bad
+2607,slow,6,False,0.0,0.07,0.0,0.0,0.0,0.0,49674,95.29,29.08,True,71.02,True,1.34,clearly bad
+1392,slow,12,False,0.0,0.07,0.0,0.0,0.0,0.0,49674,95.29,29.08,True,50.39,True,0.23,clearly bad
+1334,slow,4,False,0.0,0.07,0.0,0.01,0.0,0.0,49674,95.29,29.08,True,100.0,True,0.19,clearly bad
+2275,slow,6,False,0.0,0.07,0.0,0.0,0.0,0.0,49674,95.29,29.08,True,52.58,True,0.28,clearly bad
+1777,slow,6,False,0.0,0.07,0.0,0.0,0.0,0.0,49674,95.29,29.08,True,67.74,True,0.64,clearly bad
+2199,slow,6,False,0.0,0.07,0.0,0.0,0.0,0.0,49674,95.29,29.08,True,59.65,True,0.49,clearly bad
+1181,slow,7,False,0.0,0.07,0.0,0.0,0.0,0.0,49674,95.29,29.08,True,83.6,True,0.41,clearly bad
+2652,slow,18,False,0.0,0.08,0.0,0.02,0.0,0.0,49673,95.29,29.08,True,53.71,True,0.8,clearly bad
+2120,slow,10,False,0.0,0.07,0.0,0.06,0.0,0.0,49674,95.29,29.08,True,78.13,True,0.28,clearly bad
+1354,slow,2,False,0.0,0.07,0.0,0.04,0.0,0.0,49674,95.29,29.08,True,52.59,True,4.04,clearly bad
+1588,slow,3,False,3.61,4.1,0.0,0.0,0.0,0.0,49002,94.0,21.92,True,57.23,True,0.33,clearly bad
+2511,slow,6,False,3.61,4.1,0.0,0.0,0.0,0.0,49002,94.0,21.92,True,77.75,True,0.12,clearly bad
+2260,slow,11,False,3.61,4.11,0.0,0.0,0.0,0.0,49001,94.0,21.92,True,52.66,True,0.24,clearly bad
+2514,slow,3,False,3.61,4.1,0.0,0.0,0.0,0.0,49002,94.0,21.92,True,100.0,True,0.23,clearly bad
+2347,slow,4,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,76.76,True,0.62,clearly bad
+1988,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,71.34,True,0.61,clearly bad
+1964,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,92.18,True,0.18,clearly bad
+1767,slow,8,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,69.42,True,0.24,clearly bad
+2143,slow,8,False,3.61,7.61,0.0,0.0,0.0,0.0,48689,93.4,21.92,True,69.13,True,0.41,clearly bad
+1784,slow,4,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,60.53,True,0.14,clearly bad
+2184,slow,4,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,80.61,True,0.75,clearly bad
+2484,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,54.54,True,0.71,clearly bad
+2215,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,68.06,True,0.35,clearly bad
+2508,slow,24,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,64.24,True,1.47,clearly bad
+1804,slow,3,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,71.41,True,0.11,clearly bad
+2132,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,60.89,True,0.23,clearly bad
+2230,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,62.45,True,0.29,clearly bad
+2235,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,66.27,True,0.14,clearly bad
+1640,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,60.03,True,0.67,clearly bad
+1184,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,91.6,True,0.18,clearly bad
+2101,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,54.06,True,0.55,clearly bad
+1619,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,69.17,True,0.51,clearly bad
+1657,slow,12,False,3.61,7.62,0.0,0.0,0.0,0.0,48688,93.4,21.92,True,51.18,True,0.36,clearly bad
+2266,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,91.17,True,0.35,clearly bad
+2237,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,89.96,True,0.11,clearly bad
+1615,slow,8,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,93.11,True,0.86,clearly bad
+1850,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,89.33,True,0.36,clearly bad
+2251,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,83.12,True,0.21,clearly bad
+2272,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,84.4,True,0.65,clearly bad
+1877,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,92.47,True,0.15,clearly bad
+2089,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,67.88,True,0.05,clearly bad
+1139,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,70.42,True,0.27,clearly bad
+2065,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,58.89,True,0.16,clearly bad
+1569,slow,2,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,79.32,True,0.81,clearly bad
+2596,slow,4,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,59.52,True,0.13,clearly bad
+1899,slow,4,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,86.62,True,0.24,clearly bad
+2074,slow,3,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,90.44,True,0.3,clearly bad
+1543,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,91.09,True,0.63,clearly bad
+2055,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,64.25,True,0.23,clearly bad
+2044,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,74.42,True,0.41,clearly bad
+1916,slow,4,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,90.44,True,0.24,clearly bad
+1945,slow,3,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,54.58,True,0.03,clearly bad
+1504,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,52.19,True,0.34,clearly bad
+1506,slow,9,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,50.93,True,0.35,clearly bad
+1935,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,68.07,True,1.02,clearly bad
+1978,slow,6,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,80.88,True,0.49,clearly bad
+1063,slow,1,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,92.4,True,0.37,clearly bad
+2037,slow,4,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,52.36,True,0.3,clearly bad
+1065,slow,4,False,3.61,7.59,0.0,0.0,0.0,0.0,48690,93.4,21.92,True,69.04,True,0.52,clearly bad
+2553,slow,10,False,0.0,0.07,1.33,0.06,0.0,13.8,48446,92.94,29.08,True,15.32,False,0.44,missing history but useful periods
+2388,slow,54,True,13.31,0.1,1.34,0.0,0.0,0.0,48405,92.86,29.08,True,0.0,False,1.22,missing history but useful periods
+2446,slow,10,False,0.0,0.07,0.0,0.0,0.0,17.18,48289,92.64,29.08,True,47.51,False,2.12,missing history but useful periods
+2449,slow,5,False,0.0,0.07,0.0,0.0,0.0,17.18,48289,92.64,29.08,True,60.21,True,2.21,clearly bad
+1454,slow,16,False,0.0,0.07,1.33,0.04,0.0,17.37,48158,92.38,29.08,True,8.21,False,0.32,missing history but useful periods
+1456,slow,6,False,0.0,0.07,1.33,0.06,0.0,17.36,48159,92.39,29.08,True,33.15,False,0.32,missing history but useful periods
+1019,slow,13,False,16.49,0.07,1.33,0.06,0.0,0.0,48134,92.34,29.08,True,0.0,False,2.65,missing history but useful periods
+1061,slow,5,True,12.55,8.7,0.42,0.04,0.0,0.0,47946,91.98,21.92,True,6.11,False,0.29,missing history but useful periods
+2389,slow,54,False,23.17,0.07,1.33,0.06,0.0,0.0,47557,91.23,29.08,True,0.0,False,1.22,missing history but useful periods
+2642,slow,6,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,0.0,False,0.81,missing history but useful periods
+2001,slow,28,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.35,missing history but useful periods
+2002,slow,17,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.48,missing history but useful periods
+2003,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,25.12,False,0.83,missing history but useful periods
+1022,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.61,False,0.3,missing history but useful periods
+1027,slow,17,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.28,False,0.25,missing history but useful periods
+1028,slow,12,False,3.61,23.01,6.53,0.0,0.0,0.0,46751,89.69,21.92,True,0.0,False,0.14,missing history but useful periods
+2658,slow,43,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,2.15,missing history but useful periods
+2662,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,78.86,True,3.85,clearly bad
+1993,slow,21,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.72,missing history but useful periods
+1013,slow,28,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,24.41,False,0.67,missing history but useful periods
+1195,slow,36,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.26,missing history but useful periods
+1197,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.76,False,0.24,missing history but useful periods
+1198,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,6.52,False,0.99,missing history but useful periods
+1203,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,59.4,True,0.57,clearly bad
+2134,slow,12,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,0.8,False,0.77,missing history but useful periods
+1963,slow,9,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,97.3,True,0.88,clearly bad
+1969,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,53.0,True,0.33,clearly bad
+1975,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,37.93,False,0.35,missing history but useful periods
+1999,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,26.42,False,0.67,missing history but useful periods
+1464,slow,16,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,33.48,False,0.93,missing history but useful periods
+1465,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.27,False,0.57,missing history but useful periods
+2363,slow,24,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.06,missing history but useful periods
+2364,slow,24,False,3.61,23.01,6.53,0.0,0.0,0.0,46751,89.69,21.92,True,1.01,False,0.14,missing history but useful periods
+2367,slow,70,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.22,missing history but useful periods
+2369,slow,36,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.14,missing history but useful periods
+2373,slow,11,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.43,False,2.09,missing history but useful periods
+2378,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,48.69,False,0.4,missing history but useful periods
+1468,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,4.29,False,0.87,missing history but useful periods
+1475,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,8.49,False,1.14,missing history but useful periods
+1480,slow,18,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,11.36,False,0.15,missing history but useful periods
+1043,slow,15,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,1.6,False,2.28,missing history but useful periods
+1962,slow,12,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,28.03,False,1.38,missing history but useful periods
+2013,slow,10,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,8.18,False,0.96,missing history but useful periods
+2405,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,80.06,True,0.49,clearly bad
+1419,slow,36,False,3.63,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,1.53,missing history but useful periods
+1503,slow,15,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,1.21,missing history but useful periods
+1509,slow,21,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,1.14,missing history but useful periods
+1511,slow,30,False,3.62,23.0,6.53,0.0,0.0,0.0,46751,89.69,21.92,True,6.63,False,0.55,missing history but useful periods
+1513,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,94.07,True,0.16,clearly bad
+2341,slow,6,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,19.17,False,0.24,missing history but useful periods
+1429,slow,6,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,5.73,False,0.19,missing history but useful periods
+1433,slow,4,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,15.1,False,0.5,missing history but useful periods
+1435,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,77.71,True,0.26,clearly bad
+1439,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,40.31,False,0.07,missing history but useful periods
+1444,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,67.54,True,0.39,clearly bad
+1449,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,4.91,False,0.14,missing history but useful periods
+1539,slow,19,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,1.04,missing history but useful periods
+1540,slow,19,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.9,False,1.19,missing history but useful periods
+1541,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,16.4,False,0.77,missing history but useful periods
+1516,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,28.26,False,0.3,missing history but useful periods
+1518,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,99.97,True,0.13,clearly bad
+1520,slow,10,False,3.62,22.97,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,14.14,False,0.55,missing history but useful periods
+1521,slow,18,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,1.14,missing history but useful periods
+1527,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,5.6,False,1.05,missing history but useful periods
+2318,slow,5,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,91.24,True,0.3,clearly bad
+2400,slow,26,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,11.07,False,0.4,missing history but useful periods
+2404,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,32.47,False,0.46,missing history but useful periods
+2648,slow,3,False,3.61,22.98,6.54,0.0,0.0,0.0,46753,89.69,21.92,True,10.39,False,0.17,missing history but useful periods
+2649,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,28.7,False,0.17,missing history but useful periods
+2040,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,45.94,False,0.03,missing history but useful periods
+1947,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,28.25,False,0.08,missing history but useful periods
+1951,slow,16,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,1.38,missing history but useful periods
+1942,slow,9,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,16.26,False,0.98,missing history but useful periods
+1943,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,24.1,False,0.5,missing history but useful periods
+1946,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,94.08,True,1.26,clearly bad
+2033,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,31.93,False,1.8,missing history but useful periods
+1560,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,16.31,False,0.43,missing history but useful periods
+2419,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.1,False,0.39,missing history but useful periods
+2420,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.83,False,0.06,missing history but useful periods
+2426,slow,18,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.7,False,2.52,missing history but useful periods
+1407,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,4.5,False,0.32,missing history but useful periods
+2396,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,33.45,False,0.27,missing history but useful periods
+2321,slow,25,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.81,missing history but useful periods
+1532,slow,18,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,1.5,missing history but useful periods
+1534,slow,18,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,0.8,False,1.03,missing history but useful periods
+1535,slow,18,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,1.38,missing history but useful periods
+1536,slow,49,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,1.24,missing history but useful periods
+1538,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,4.79,False,1.18,missing history but useful periods
+2411,slow,9,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,3.6,False,0.42,missing history but useful periods
+2412,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,99.97,True,0.43,clearly bad
+2413,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,34.06,False,0.48,missing history but useful periods
+2415,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,97.84,True,0.25,clearly bad
+1546,slow,15,False,3.63,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.61,False,1.11,missing history but useful periods
+1547,slow,15,False,3.61,22.98,6.54,0.0,0.0,0.0,46753,89.69,21.92,True,0.62,False,1.1,missing history but useful periods
+1550,slow,15,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,1.2,missing history but useful periods
+1551,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,13.53,False,0.42,missing history but useful periods
+1554,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,97.05,True,0.31,clearly bad
+1558,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,24.51,False,0.5,missing history but useful periods
+2014,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,1.66,missing history but useful periods
+2015,slow,38,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.63,missing history but useful periods
+2622,slow,42,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.06,missing history but useful periods
+2624,slow,8,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,30.72,False,0.75,missing history but useful periods
+2630,slow,15,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.9,False,0.21,missing history but useful periods
+1936,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,60.83,True,0.48,clearly bad
+1924,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,60.54,True,0.31,clearly bad
+1925,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,44.32,False,0.37,missing history but useful periods
+1926,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,43.82,False,0.24,missing history but useful periods
+1929,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,37.41,False,0.41,missing history but useful periods
+2052,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,80.69,True,0.67,clearly bad
+1587,slow,6,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,3.6,False,0.5,missing history but useful periods
+2269,slow,15,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.5,missing history but useful periods
+2307,slow,10,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.69,missing history but useful periods
+2309,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,99.62,True,0.19,clearly bad
+2313,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,74.03,True,0.84,clearly bad
+1571,slow,1,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,52.05,True,0.3,clearly bad
+1574,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,66.29,True,0.23,clearly bad
+1578,slow,15,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,5.09,False,0.83,missing history but useful periods
+1390,slow,10,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,58.84,True,0.26,clearly bad
+1395,slow,7,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.66,False,0.11,missing history but useful periods
+1396,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,72.56,True,0.15,clearly bad
+2431,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,81.11,True,0.62,clearly bad
+2432,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,67.82,True,0.62,clearly bad
+2433,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,76.31,True,0.62,clearly bad
+2434,slow,38,False,3.61,23.01,6.53,0.0,0.0,0.0,46751,89.69,21.92,True,0.0,False,2.32,missing history but useful periods
+2435,slow,10,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,20.32,False,0.78,missing history but useful periods
+2437,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,66.96,True,0.8,clearly bad
+2439,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,10.79,False,0.49,missing history but useful periods
+1382,slow,1,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,82.28,True,0.32,clearly bad
+1386,slow,1,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,33.05,False,0.53,missing history but useful periods
+2293,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,22.81,False,0.46,missing history but useful periods
+1583,slow,11,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.66,missing history but useful periods
+2610,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,49.09,False,1.29,missing history but useful periods
+2616,slow,30,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.54,missing history but useful periods
+1917,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,96.01,True,0.07,clearly bad
+1922,slow,13,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,8.52,False,0.48,missing history but useful periods
+1923,slow,16,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,10.08,False,0.48,missing history but useful periods
+2598,slow,35,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.18,missing history but useful periods
+2600,slow,8,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.28,False,1.48,missing history but useful periods
+1336,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,53.81,True,0.52,clearly bad
+1351,slow,1,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,50.26,True,0.3,clearly bad
+2273,slow,10,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,15.67,False,1.59,missing history but useful periods
+1607,slow,12,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,15.48,False,0.22,missing history but useful periods
+2450,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,69.73,True,0.41,clearly bad
+2451,slow,6,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,18.06,False,0.91,missing history but useful periods
+2453,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,39.38,False,0.52,missing history but useful periods
+2458,slow,13,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.39,False,2.88,missing history but useful periods
+1363,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,24.39,False,0.72,missing history but useful periods
+1365,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,48.67,False,0.47,missing history but useful periods
+1370,slow,19,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.31,False,0.1,missing history but useful periods
+2428,slow,27,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,13.89,False,0.53,missing history but useful periods
+2429,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,73.45,True,0.62,clearly bad
+2430,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,65.84,True,0.62,clearly bad
+2261,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,39.12,False,0.34,missing history but useful periods
+2263,slow,8,False,3.63,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,5.33,False,0.46,missing history but useful periods
+1611,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,38.94,False,0.34,missing history but useful periods
+1616,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,38.24,False,0.31,missing history but useful periods
+1618,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,68.76,True,0.54,clearly bad
+1335,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,99.97,True,0.28,clearly bad
+1103,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,12.21,False,0.62,missing history but useful periods
+1104,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.9,False,0.36,missing history but useful periods
+1111,slow,16,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.56,False,0.44,missing history but useful periods
+2073,slow,9,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.44,False,0.18,missing history but useful periods
+1902,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,49.91,False,0.22,missing history but useful periods
+1903,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,6.43,False,0.34,missing history but useful periods
+1904,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,27.89,False,0.83,missing history but useful periods
+1906,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,52.22,True,0.31,clearly bad
+1907,slow,11,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,59.17,True,0.42,clearly bad
+1914,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,21.32,False,0.77,missing history but useful periods
+1656,slow,35,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,1.32,missing history but useful periods
+1658,slow,45,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.74,missing history but useful periods
+1620,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,67.17,True,0.4,clearly bad
+1623,slow,22,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.98,False,0.46,missing history but useful periods
+1624,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,90.91,True,1.77,clearly bad
+1625,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,77.37,True,1.62,clearly bad
+1626,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,93.48,True,1.64,clearly bad
+1627,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,84.17,True,1.56,clearly bad
+1628,slow,13,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.93,False,1.34,missing history but useful periods
+1629,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,90.31,True,0.5,clearly bad
+1630,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,99.97,True,1.55,clearly bad
+1631,slow,8,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,17.9,False,1.37,missing history but useful periods
+1635,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,78.62,True,0.58,clearly bad
+1636,slow,20,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,3.73,False,0.69,missing history but useful periods
+2253,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,11.73,False,0.32,missing history but useful periods
+2257,slow,14,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,37.64,False,0.18,missing history but useful periods
+1324,slow,15,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.12,missing history but useful periods
+1325,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,74.75,True,0.25,clearly bad
+1328,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,96.43,True,0.32,clearly bad
+1329,slow,6,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,45.95,False,0.53,missing history but useful periods
+1331,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,7.32,False,1.41,missing history but useful periods
+1332,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,90.37,True,0.21,clearly bad
+1643,slow,10,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,15.66,False,0.68,missing history but useful periods
+1644,slow,36,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.8,missing history but useful periods
+1645,slow,3,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,61.08,True,0.29,clearly bad
+1646,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,95.7,True,0.29,clearly bad
+1648,slow,14,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,18.59,False,0.71,missing history but useful periods
+1649,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,24.3,False,0.43,missing history but useful periods
+1650,slow,17,False,3.63,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,11.01,False,0.34,missing history but useful periods
+1651,slow,3,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,93.28,True,0.43,clearly bad
+1652,slow,5,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,71.25,True,0.43,clearly bad
+1654,slow,20,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,5.11,False,0.83,missing history but useful periods
+2066,slow,6,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,28.82,False,0.06,missing history but useful periods
+1138,slow,26,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.54,missing history but useful periods
+1317,slow,4,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,18.0,False,0.26,missing history but useful periods
+1320,slow,16,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.98,False,1.51,missing history but useful periods
+1322,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,53.14,True,0.44,clearly bad
+2459,slow,4,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,46.09,False,0.23,missing history but useful periods
+2461,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,17.8,False,0.63,missing history but useful periods
+2462,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.22,False,0.21,missing history but useful periods
+1659,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,7.37,False,0.36,missing history but useful periods
+1661,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,27.63,False,0.21,missing history but useful periods
+1669,slow,24,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,4.0,False,0.78,missing history but useful periods
+1671,slow,8,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,28.35,False,0.7,missing history but useful periods
+2466,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,4.69,False,0.42,missing history but useful periods
+2467,slow,16,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,3.73,False,0.47,missing history but useful periods
+2470,slow,14,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,13.56,False,0.39,missing history but useful periods
+2474,slow,14,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,17.72,False,0.34,missing history but useful periods
+1676,slow,5,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,71.11,True,0.32,clearly bad
+1683,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,58.94,True,0.45,clearly bad
+1685,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,90.9,True,2.49,clearly bad
+2219,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,46.51,False,0.68,missing history but useful periods
+2220,slow,12,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,4.83,False,0.39,missing history but useful periods
+1310,slow,6,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,97.84,True,0.15,clearly bad
+1311,slow,9,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,72.47,True,0.16,clearly bad
+1115,slow,26,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.48,missing history but useful periods
+1116,slow,34,False,3.62,22.98,6.54,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.2,missing history but useful periods
+1123,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,33.64,False,0.13,missing history but useful periods
+1124,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,3.83,False,0.24,missing history but useful periods
+1886,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,17.86,False,0.45,missing history but useful periods
+1887,slow,8,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,3.6,False,0.27,missing history but useful periods
+1890,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,11.19,False,0.48,missing history but useful periods
+1891,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,49.6,False,0.56,missing history but useful periods
+1896,slow,30,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,10.78,False,0.18,missing history but useful periods
+1883,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,26.91,False,0.33,missing history but useful periods
+2191,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,92.02,True,0.22,clearly bad
+1292,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,27.85,False,1.39,missing history but useful periods
+1294,slow,9,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,2.89,False,0.25,missing history but useful periods
+1298,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,91.21,True,0.17,clearly bad
+1304,slow,16,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.99,False,0.24,missing history but useful periods
+1305,slow,10,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,54.59,True,0.27,clearly bad
+1306,slow,15,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,26.22,False,0.09,missing history but useful periods
+2226,slow,6,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,15.4,False,0.28,missing history but useful periods
+2232,slow,7,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,51.11,True,0.09,clearly bad
+1694,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,5.55,False,0.91,missing history but useful periods
+1699,slow,9,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.02,False,0.9,missing history but useful periods
+1700,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,76.5,True,1.55,clearly bad
+2203,slow,20,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,20.92,False,0.26,missing history but useful periods
+2204,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,53.34,True,0.4,clearly bad
+1276,slow,24,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.7,missing history but useful periods
+1279,slow,11,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,1.99,False,0.22,missing history but useful periods
+1288,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,53.16,True,0.13,clearly bad
+2207,slow,3,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,62.39,True,0.74,clearly bad
+2208,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,92.75,True,0.2,clearly bad
+2213,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,11.27,False,0.54,missing history but useful periods
+1707,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,3.04,False,0.64,missing history but useful periods
+1711,slow,10,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,5.17,False,0.72,missing history but useful periods
+2574,slow,18,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.19,missing history but useful periods
+2579,slow,42,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.24,missing history but useful periods
+2580,slow,8,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,34.25,False,0.68,missing history but useful periods
+1867,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,75.76,True,0.44,clearly bad
+1868,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,45.81,False,0.44,missing history but useful periods
+1872,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,85.56,True,0.1,clearly bad
+1874,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,90.82,True,0.18,clearly bad
+1876,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,13.43,False,0.62,missing history but useful periods
+2182,slow,6,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,5.34,False,0.55,missing history but useful periods
+2194,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,9.55,False,0.58,missing history but useful periods
+2195,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,16.87,False,0.36,missing history but useful periods
+2196,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,93.68,True,0.79,clearly bad
+2197,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.02,False,0.53,missing history but useful periods
+2200,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,9.43,False,0.26,missing history but useful periods
+2201,slow,12,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,1.32,False,0.58,missing history but useful periods
+1724,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,11.49,False,0.54,missing history but useful periods
+1728,slow,15,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.69,False,0.89,missing history but useful periods
+1730,slow,15,False,3.61,22.98,6.54,0.0,0.0,0.0,46753,89.69,21.92,True,12.99,False,0.17,missing history but useful periods
+1732,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,77.87,True,0.93,clearly bad
+2481,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,93.49,True,0.21,clearly bad
+2483,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,13.05,False,0.22,missing history but useful periods
+2487,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,78.98,True,0.71,clearly bad
+2488,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,43.72,False,0.12,missing history but useful periods
+1275,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,64.58,True,0.36,clearly bad
+2082,slow,24,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.14,missing history but useful periods
+2085,slow,80,False,3.63,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.11,missing history but useful periods
+2552,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,4.61,False,0.46,missing history but useful periods
+2554,slow,13,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.65,False,0.4,missing history but useful periods
+2156,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,23.67,False,0.74,missing history but useful periods
+1260,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,83.16,True,0.26,clearly bad
+1264,slow,6,False,3.61,22.98,6.54,0.0,0.0,0.0,46753,89.69,21.92,True,3.9,False,0.78,missing history but useful periods
+1268,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,12.78,False,2.15,missing history but useful periods
+2476,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,28.81,False,0.26,missing history but useful periods
+2478,slow,15,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.61,False,0.22,missing history but useful periods
+2479,slow,30,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.78,False,0.42,missing history but useful periods
+2480,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,77.89,True,0.27,clearly bad
+1735,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.38,False,0.92,missing history but useful periods
+1742,slow,8,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,43.58,False,0.24,missing history but useful periods
+1743,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,25.5,False,0.57,missing history but useful periods
+1748,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,13.45,False,0.26,missing history but useful periods
+1839,slow,14,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,12.6,False,0.47,missing history but useful periods
+1849,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,78.5,True,0.49,clearly bad
+2532,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,77.85,True,0.6,clearly bad
+2534,slow,12,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,52.08,True,0.72,clearly bad
+2535,slow,6,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,69.07,True,1.07,clearly bad
+1755,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,24.21,False,0.28,missing history but useful periods
+1758,slow,1,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,85.86,True,0.68,clearly bad
+1761,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,33.06,False,0.87,missing history but useful periods
+1763,slow,1,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,45.34,False,0.68,missing history but useful periods
+1770,slow,12,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,16.7,False,0.31,missing history but useful periods
+1154,slow,14,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.61,missing history but useful periods
+2557,slow,24,False,3.62,23.0,6.53,0.0,0.0,0.0,46751,89.69,21.92,True,0.0,False,0.76,missing history but useful periods
+2560,slow,25,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.8,missing history but useful periods
+1857,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,95.6,True,0.27,clearly bad
+1866,slow,18,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.65,False,0.37,missing history but useful periods
+2079,slow,6,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,6.23,False,0.5,missing history but useful periods
+1802,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,45.89,False,0.25,missing history but useful periods
+2126,slow,3,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,36.84,False,0.27,missing history but useful periods
+2168,slow,56,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.96,missing history but useful periods
+1771,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,76.98,True,0.77,clearly bad
+1773,slow,9,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.61,False,1.39,missing history but useful periods
+2140,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.67,False,0.22,missing history but useful periods
+2145,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,31.1,False,0.59,missing history but useful periods
+2497,slow,8,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,25.51,False,0.42,missing history but useful periods
+2501,slow,7,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,8.51,False,0.18,missing history but useful periods
+1173,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,79.42,True,0.97,clearly bad
+1174,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,22.93,False,1.17,missing history but useful periods
+1175,slow,31,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.65,missing history but useful periods
+2524,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,62.52,True,0.49,clearly bad
+2527,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.35,False,0.33,missing history but useful periods
+2530,slow,24,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.4,missing history but useful periods
+1835,slow,11,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,40.23,False,0.52,missing history but useful periods
+1223,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.28,False,0.49,missing history but useful periods
+1226,slow,1,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,54.92,True,0.99,clearly bad
+1227,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,46.6,False,1.02,missing history but useful periods
+1230,slow,3,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,47.13,False,0.37,missing history but useful periods
+1232,slow,1,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,70.55,True,0.5,clearly bad
+1233,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,43.25,False,0.92,missing history but useful periods
+1238,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,42.88,False,0.75,missing history but useful periods
+1239,slow,6,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,35.06,False,0.8,missing history but useful periods
+2493,slow,1,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,82.26,True,0.15,clearly bad
+2495,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,74.19,True,0.52,clearly bad
+1789,slow,7,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,9.71,False,0.31,missing history but useful periods
+1793,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,68.28,True,0.72,clearly bad
+1795,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,63.78,True,0.73,clearly bad
+1797,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,32.97,False,0.26,missing history but useful periods
+1798,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,47.03,False,1.29,missing history but useful periods
+1800,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,43.62,False,0.22,missing history but useful periods
+1803,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,81.02,True,0.39,clearly bad
+1807,slow,18,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.46,missing history but useful periods
+1816,slow,6,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,60.86,True,0.43,clearly bad
+1206,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,96.05,True,0.56,clearly bad
+1216,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,6.7,False,0.18,missing history but useful periods
+1217,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,61.67,True,0.51,clearly bad
+1222,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,4.65,False,1.39,missing history but useful periods
+2538,slow,30,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,0.0,False,0.44,missing history but useful periods
+2112,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,48.68,False,0.06,missing history but useful periods
+1821,slow,3,False,3.62,22.98,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,63.44,True,0.22,clearly bad
+1827,slow,4,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,19.1,False,0.24,missing history but useful periods
+1829,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.64,False,0.55,missing history but useful periods
+1833,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,6.39,False,0.9,missing history but useful periods
+2513,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,14.03,False,0.26,missing history but useful periods
+2519,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,79.5,True,0.45,clearly bad
+2521,slow,10,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,0.36,missing history but useful periods
+2380,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,82.73,True,0.46,clearly bad
+2355,slow,2,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,88.23,True,0.74,clearly bad
+2358,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,24.53,False,0.6,missing history but useful periods
+2359,slow,4,False,3.61,22.98,6.54,0.0,0.0,0.0,46753,89.69,21.92,True,93.65,True,0.59,clearly bad
+1484,slow,33,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,6.33,False,0.51,missing history but useful periods
+1491,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,37.39,False,0.23,missing history but useful periods
+2394,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,6.83,False,0.21,missing history but useful periods
+1459,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.9,False,0.27,missing history but useful periods
+1980,slow,24,False,3.61,22.97,6.53,0.0,0.0,0.0,46754,89.69,21.92,True,16.21,False,0.38,missing history but useful periods
+1981,slow,15,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,2.47,False,0.72,missing history but useful periods
+1982,slow,12,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,12.99,False,1.1,missing history but useful periods
+1983,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,28.52,False,0.15,missing history but useful periods
+1985,slow,3,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,21.52,False,1.12,missing history but useful periods
+1986,slow,9,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,1.51,False,1.0,missing history but useful periods
+2021,slow,5,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,14.23,False,2.01,missing history but useful periods
+2025,slow,6,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,38.95,False,2.0,missing history but useful periods
+1042,slow,19,False,3.61,22.98,6.53,0.0,0.0,0.0,46753,89.69,21.92,True,0.0,False,2.58,missing history but useful periods
+1035,slow,36,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,2.65,missing history but useful periods
+1021,slow,12,False,3.61,23.0,6.53,0.0,0.0,0.0,46752,89.69,21.92,True,0.0,False,0.32,missing history but useful periods
+2670,slow,21,False,3.62,23.0,6.53,0.0,0.0,0.0,46751,89.69,21.92,True,0.85,False,4.08,missing history but useful periods
+2547,slow,32,False,3.61,22.98,6.68,0.0,0.0,0.0,46740,89.66,21.92,True,0.0,False,1.39,missing history but useful periods
+2541,slow,50,False,3.61,22.98,6.68,0.0,0.0,0.0,46740,89.66,21.92,True,0.0,False,0.98,missing history but useful periods
+1319,slow,24,False,3.61,22.97,6.68,0.0,0.0,0.0,46741,89.67,21.92,True,6.36,False,0.49,missing history but useful periods
+2584,slow,33,False,3.61,22.98,6.68,0.0,0.0,0.0,46740,89.66,21.92,True,0.0,False,0.76,missing history but useful periods
+2464,slow,21,False,3.61,22.98,6.68,0.0,0.0,0.0,46740,89.66,21.92,True,6.29,False,0.46,missing history but useful periods
+2398,slow,29,False,3.61,22.98,6.68,0.0,0.0,0.0,46740,89.66,21.92,True,0.0,False,0.31,missing history but useful periods
+1968,slow,21,False,3.61,22.98,6.68,0.0,0.0,0.0,46740,89.66,21.92,True,5.46,False,0.68,missing history but useful periods
+1477,slow,41,False,0.0,0.07,1.33,0.04,0.0,44.93,45936,88.12,29.08,True,3.53,False,0.67,missing history but useful periods
+1498,slow,15,False,49.54,0.07,1.33,0.04,0.0,0.0,45279,86.86,29.08,True,0.62,False,0.46,missing history but useful periods
+1266,slow,12,False,49.59,0.07,1.33,0.06,0.0,0.0,45274,86.85,29.08,True,1.45,False,2.19,missing history but useful periods
+1059,slow,22,False,42.82,0.07,1.33,16.06,0.0,0.0,44429,85.23,29.08,True,20.87,False,0.43,missing history but useful periods
+2169,slow,12,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,1.83,False,0.44,missing history but useful periods
+2083,slow,70,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,0.0,False,0.2,missing history but useful periods
+2171,slow,6,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,93.7,True,0.6,clearly bad
+2471,slow,6,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,11.48,False,0.2,missing history but useful periods
+2594,slow,6,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,72.93,True,0.16,clearly bad
+2071,slow,102,False,3.61,23.0,35.87,0.0,0.0,0.0,44217,84.82,21.92,True,0.0,False,0.37,missing history but useful periods
+1347,slow,4,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,54.82,True,0.4,clearly bad
+2283,slow,13,False,3.61,22.98,35.87,0.0,0.0,0.0,44218,84.83,21.92,True,2.04,False,0.31,missing history but useful periods
+1100,slow,24,False,3.62,22.98,35.87,0.0,0.0,0.0,44217,84.82,21.92,True,12.44,False,0.13,missing history but useful periods
+2046,slow,6,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,56.33,True,1.19,clearly bad
+2485,slow,3,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,2.9,False,0.08,missing history but useful periods
+1402,slow,3,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,65.01,True,0.38,clearly bad
+1255,slow,6,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,85.22,True,1.39,clearly bad
+2564,slow,12,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,0.0,False,0.18,missing history but useful periods
+1828,slow,3,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,33.26,False,0.65,missing history but useful periods
+2005,slow,10,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,3.86,False,1.44,missing history but useful periods
+2000,slow,6,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,88.5,True,0.67,clearly bad
+2009,slow,58,False,3.61,23.0,35.86,0.0,0.0,0.0,44218,84.83,21.92,True,0.0,False,0.12,missing history but useful periods
+1563,slow,24,False,3.61,22.98,35.87,0.0,0.0,0.0,44219,84.83,21.92,True,0.0,False,0.65,missing history but useful periods
+1526,slow,18,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,1.86,False,0.84,missing history but useful periods
+1702,slow,6,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,28.53,False,0.44,missing history but useful periods
+1283,slow,4,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,37.89,False,0.08,missing history but useful periods
+2496,slow,36,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,62.38,True,1.48,clearly bad
+2122,slow,6,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,10.33,False,0.18,missing history but useful periods
+1788,slow,10,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,1.83,False,0.25,missing history but useful periods
+2666,slow,6,False,3.61,22.98,35.86,0.0,0.0,0.0,44219,84.83,21.92,True,23.65,False,3.31,missing history but useful periods
+1996,slow,106,False,3.61,22.98,35.87,0.0,0.0,0.0,44218,84.83,21.92,True,0.0,False,0.15,missing history but useful periods
+1349,slow,43,False,0.0,0.07,1.33,0.06,0.0,83.07,42862,82.22,29.08,True,2.38,False,0.57,missing history but useful periods
+1952,slow,30,False,79.53,0.07,1.34,0.11,0.0,0.0,42711,81.93,23.92,True,8.19,False,0.98,missing history but useful periods
+2285,slow,40,False,82.86,0.07,1.33,0.04,0.0,0.0,42424,81.38,22.92,True,0.0,False,0.6,missing history but useful periods
+1549,slow,3,False,3.61,22.98,6.53,0.0,51.51,0.0,42156,80.87,21.92,True,66.88,True,1.07,clearly bad
+1075,slow,4,False,20.68,15.48,16.15,12.56,12.58,12.6,42301,81.15,0.67,True,0.0,False,0.89,"mostly missing, no long useful period"
+1047,slow,20,False,89.51,0.07,1.33,0.06,0.0,0.0,41849,80.28,21.92,True,1.66,False,0.28,missing history but useful periods
+1149,slow,23,False,89.57,0.07,1.33,0.06,0.0,0.0,41844,80.27,21.92,True,0.0,False,1.07,missing history but useful periods
+1393,slow,14,False,92.58,0.34,1.33,0.04,0.0,0.0,41560,79.73,21.92,True,3.27,False,1.41,missing history but useful periods
+2113,slow,8,False,93.17,26.01,1.33,0.04,0.0,0.0,39268,75.33,21.92,True,0.0,False,0.36,missing history but useful periods
+2295,slow,10,False,0.0,0.0,0.0,0.0,32.05,96.88,39010,74.84,29.08,True,1.02,False,1.2,missing history but useful periods
+1741,slow,4,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,99.39,True,1.11,clearly bad
+1362,slow,20,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,0.0,False,5.77,missing history but useful periods
+1581,slow,18,False,0.0,0.07,0.0,0.03,32.05,96.88,39004,74.82,29.08,True,99.39,True,3.01,clearly bad
+2205,slow,60,False,0.0,0.07,0.0,0.03,32.05,96.88,39004,74.82,29.08,True,0.0,False,0.45,missing history but useful periods
+1301,slow,10,False,0.0,0.08,0.0,0.0,32.05,96.88,39003,74.82,29.08,True,0.0,False,0.41,missing history but useful periods
+1592,slow,10,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,2.57,False,3.62,missing history but useful periods
+2608,slow,15,False,0.0,0.08,0.0,0.0,32.05,96.88,39003,74.82,29.08,True,0.0,False,3.16,missing history but useful periods
+1144,slow,13,False,0.0,0.07,0.0,0.0,32.05,96.88,39004,74.82,29.08,True,0.0,False,0.58,missing history but useful periods
+1126,slow,35,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,0.0,False,1.14,missing history but useful periods
+1136,slow,18,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,76.2,True,0.54,clearly bad
+1176,slow,20,False,0.0,0.07,0.0,0.0,32.05,96.89,39003,74.82,29.08,True,10.37,False,3.41,missing history but useful periods
+1163,slow,41,False,0.0,0.07,0.0,0.01,32.05,96.9,39004,74.82,29.08,True,0.0,False,0.78,missing history but useful periods
+1253,slow,22,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,5.07,False,0.3,missing history but useful periods
+2170,slow,20,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,16.3,False,0.5,missing history but useful periods
+1237,slow,10,False,0.0,0.08,0.0,0.01,32.05,96.88,39003,74.82,29.08,True,0.0,False,1.43,missing history but useful periods
+1172,slow,6,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,0.0,False,0.86,missing history but useful periods
+1530,slow,9,False,0.0,0.07,0.0,0.04,32.05,96.88,39004,74.82,29.08,True,26.29,False,4.5,missing history but useful periods
+1428,slow,17,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,4.0,False,1.01,missing history but useful periods
+1002,slow,22,False,0.0,0.07,0.0,0.01,32.05,96.88,39004,74.82,29.08,True,10.88,False,0.86,missing history but useful periods
+1072,slow,14,False,0.0,0.07,0.0,0.01,32.05,96.89,39003,74.82,29.08,True,99.39,True,0.91,clearly bad
+2032,slow,9,False,0.0,0.07,0.0,0.0,32.05,96.88,39004,74.82,29.08,True,0.0,False,0.78,missing history but useful periods
+1752,slow,9,False,0.0,0.07,0.0,0.01,32.05,96.89,39003,74.82,29.08,True,0.0,False,0.19,missing history but useful periods
+1710,slow,10,False,0.0,0.07,0.0,0.0,32.05,96.9,39003,74.82,29.08,True,99.4,True,0.66,clearly bad
+1221,slow,30,False,0.0,0.07,0.0,0.0,32.05,96.88,39004,74.82,29.08,True,0.0,False,0.56,missing history but useful periods
+2653,slow,88,False,0.0,0.07,0.0,0.0,32.05,96.91,39001,74.82,29.08,True,0.0,False,2.57,missing history but useful periods
+1016,slow,22,False,0.0,0.07,0.0,0.0,32.05,96.88,39004,74.82,29.08,True,2.35,False,1.83,missing history but useful periods
+1008,slow,38,False,0.0,0.07,0.0,0.04,32.05,96.89,39003,74.82,29.08,True,2.12,False,1.52,missing history but useful periods
+1265,slow,45,False,0.0,0.07,0.0,0.01,32.05,96.96,39000,74.82,29.08,True,99.41,True,5.98,clearly bad
+1001,slow,20,False,0.0,0.07,0.0,0.0,32.06,96.92,38999,74.81,29.08,True,0.0,False,2.02,missing history but useful periods
+1129,slow,13,False,0.0,0.07,0.0,0.04,32.05,96.9,39003,74.82,29.08,True,0.0,False,1.11,missing history but useful periods
+2368,slow,16,False,0.0,0.07,1.33,0.04,32.05,96.88,38889,74.6,29.08,True,1.24,False,0.17,missing history but useful periods
+2423,slow,8,False,0.0,0.07,1.33,0.0,32.05,96.88,38889,74.6,29.08,True,80.32,True,0.8,clearly bad
+2408,slow,16,False,0.0,0.08,1.33,0.04,32.05,96.88,38888,74.6,29.08,True,8.69,False,0.59,missing history but useful periods
+1051,slow,15,False,0.0,0.07,1.33,0.0,32.06,97.02,38876,74.58,29.08,True,7.42,False,3.16,missing history but useful periods
+1293,slow,3,False,3.61,22.98,6.53,0.0,0.0,99.85,38869,74.56,21.92,True,34.76,False,0.15,missing history but useful periods
+1246,slow,6,False,4.2,2.97,0.08,0.02,32.05,96.89,38422,73.71,21.92,True,1.54,False,1.25,missing history but useful periods
+2522,slow,3,False,3.61,4.1,0.0,0.0,32.05,96.88,38332,73.53,21.92,True,87.26,True,0.13,clearly bad
+2110,slow,6,False,3.61,4.1,0.0,0.0,32.05,96.89,38331,73.53,21.92,True,20.53,False,0.08,missing history but useful periods
+1505,slow,6,False,3.61,4.1,0.0,0.0,32.05,96.88,38332,73.53,21.92,True,43.29,False,0.37,missing history but useful periods
+1544,slow,6,False,3.61,4.1,0.0,0.0,32.05,96.88,38332,73.53,21.92,True,38.64,False,0.7,missing history but useful periods
+1809,slow,2,False,3.61,4.1,0.0,0.0,32.05,96.88,38332,73.53,21.92,True,63.83,True,0.23,clearly bad
+2663,slow,27,False,20.88,20.8,20.87,20.88,20.9,27.42,38820,74.47,0.67,True,0.0,False,2.37,"mostly missing, no long useful period"
+1717,slow,17,False,93.4,38.61,1.33,0.06,0.0,0.0,38142,73.17,21.92,True,0.0,False,0.04,missing history but useful periods
+1603,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,75.12,True,0.43,clearly bad
+2615,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,3.19,False,1.16,missing history but useful periods
+1366,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,1.88,False,0.88,missing history but useful periods
+2054,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,80.0,True,0.25,clearly bad
+2265,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,46.21,False,0.02,missing history but useful periods
+2643,slow,10,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,13.83,False,0.75,missing history but useful periods
+2109,slow,5,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,17.58,False,0.17,missing history but useful periods
+2665,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,42.93,False,2.82,missing history but useful periods
+1992,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,3.25,False,1.2,missing history but useful periods
+1182,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,70.75,True,0.3,clearly bad
+1837,slow,1,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,66.89,True,0.41,clearly bad
+2672,slow,30,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,0.0,False,0.04,missing history but useful periods
+1085,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,9.76,False,0.08,missing history but useful periods
+2063,slow,5,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,46.13,False,0.69,missing history but useful periods
+2236,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,9.94,False,0.2,missing history but useful periods
+1673,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,6.03,False,0.45,missing history but useful periods
+2216,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,3.2,False,1.43,missing history but useful periods
+2583,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,6.09,False,0.45,missing history but useful periods
+1756,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,46.61,False,0.68,missing history but useful periods
+2144,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,9.48,False,0.17,missing history but useful periods
+1245,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,24.7,False,0.21,missing history but useful periods
+2056,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,73.89,True,0.65,clearly bad
+2356,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,27.83,False,1.05,missing history but useful periods
+1472,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,17.61,False,0.52,missing history but useful periods
+2393,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,0.0,False,0.34,missing history but useful periods
+2647,slow,9,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,2.02,False,0.41,missing history but useful periods
+1052,slow,8,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,1.14,False,0.91,missing history but useful periods
+1537,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,8.17,False,1.02,missing history but useful periods
+1510,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,26.37,False,0.27,missing history but useful periods
+2242,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,5.36,False,0.26,missing history but useful periods
+2620,slow,10,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,46.89,False,0.22,missing history but useful periods
+1316,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,8.19,False,0.26,missing history but useful periods
+1314,slow,10,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,12.29,False,0.39,missing history but useful periods
+1415,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,0.0,False,0.28,missing history but useful periods
+1074,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.88,38020,72.94,21.92,True,43.27,False,1.3,missing history but useful periods
+2352,slow,24,False,3.62,7.59,0.0,0.0,32.05,96.88,38019,72.93,21.92,True,0.0,False,0.02,missing history but useful periods
+1954,slow,6,False,3.61,7.61,0.0,0.0,32.05,96.88,38019,72.93,21.92,True,11.28,False,0.29,missing history but useful periods
+1754,slow,6,False,3.61,7.61,0.0,0.0,32.05,96.9,38018,72.93,21.92,True,37.83,False,0.74,missing history but useful periods
+2558,slow,12,False,3.61,7.61,0.0,0.0,32.05,96.88,38019,72.93,21.92,True,0.0,False,0.45,missing history but useful periods
+1766,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.9,38019,72.93,21.92,True,42.93,False,0.51,missing history but useful periods
+1186,slow,12,False,3.61,7.59,0.0,0.0,32.06,96.88,38019,72.93,21.92,True,2.42,False,0.36,missing history but useful periods
+1852,slow,3,False,3.61,7.61,0.0,0.0,32.05,96.88,38019,72.93,21.92,True,36.17,False,0.59,missing history but useful periods
+1762,slow,36,False,3.63,7.59,0.0,0.0,32.05,96.89,38019,72.93,21.92,True,0.0,False,1.24,missing history but useful periods
+1249,slow,10,False,3.61,7.59,0.0,0.0,32.05,96.92,38020,72.94,21.92,True,90.04,True,0.56,clearly bad
+2185,slow,4,False,3.61,7.61,0.0,0.0,32.05,96.88,38019,72.93,21.92,True,59.09,True,0.3,clearly bad
+2267,slow,10,False,3.61,7.61,0.0,0.0,32.05,96.89,38018,72.93,21.92,True,27.28,False,0.07,missing history but useful periods
+1691,slow,30,False,3.61,7.63,0.0,0.0,32.05,96.88,38017,72.93,21.92,True,2.33,False,0.36,missing history but useful periods
+2582,slow,6,False,3.62,7.59,0.0,0.0,32.05,96.88,38019,72.93,21.92,True,6.32,False,0.57,missing history but useful periods
+1621,slow,12,False,3.61,7.59,0.0,0.0,32.05,96.9,38018,72.93,21.92,True,0.0,False,1.5,missing history but useful periods
+1308,slow,24,False,3.61,7.59,0.0,0.0,32.05,96.92,38020,72.94,21.92,True,4.17,False,0.25,missing history but useful periods
+1911,slow,10,False,3.61,7.59,0.0,0.0,32.05,96.9,38019,72.93,21.92,True,10.8,False,0.13,missing history but useful periods
+1575,slow,2,False,3.62,7.59,0.0,0.0,32.05,96.88,38019,72.93,21.92,True,86.99,True,0.83,clearly bad
+1573,slow,6,False,3.61,7.59,0.0,0.0,32.07,96.88,38018,72.93,21.92,True,11.63,False,0.51,missing history but useful periods
+1970,slow,18,False,3.61,7.59,0.0,0.0,32.05,96.89,38019,72.93,21.92,True,21.42,False,0.78,missing history but useful periods
+1461,slow,6,False,3.61,7.59,0.0,0.0,32.05,96.9,38019,72.93,21.92,True,47.37,False,0.25,missing history but useful periods
+2317,slow,18,False,3.61,7.61,0.0,0.0,32.05,96.88,38019,72.93,21.92,True,0.0,False,0.15,missing history but useful periods
+2322,slow,6,False,3.61,7.61,0.0,0.0,32.05,96.88,38019,72.93,21.92,True,34.05,False,0.47,missing history but useful periods
+1967,slow,10,False,3.61,7.59,0.0,0.0,32.05,96.95,38014,72.92,21.92,True,23.99,False,0.44,missing history but useful periods
+2645,slow,36,False,3.61,7.59,0.0,0.0,32.05,96.95,38018,72.93,21.92,True,0.0,False,0.16,missing history but useful periods
+2141,slow,6,False,3.61,7.59,0.0,0.0,32.05,97.02,38008,72.91,21.92,True,26.31,False,0.27,missing history but useful periods
+1300,slow,2,False,12.5,7.22,0.3,0.06,32.05,96.88,37428,71.8,21.92,True,0.0,False,0.41,missing history but useful periods
+2228,slow,40,False,99.55,44.77,1.33,0.1,0.0,0.0,37567,72.07,21.92,True,1.19,False,1.1,missing history but useful periods
+1004,slow,6,False,20.84,21.47,16.18,29.26,29.2,38.22,36840,70.67,11.42,True,0.0,False,1.57,missing history but useful periods
+1918,slow,16,False,0.0,0.08,1.33,0.11,62.09,97.36,36183,69.41,29.08,True,1.13,False,0.78,missing history but useful periods
+2506,slow,24,False,3.61,22.98,6.53,53.66,65.39,0.0,36131,69.31,21.38,True,0.0,False,1.01,missing history but useful periods
+2503,slow,4,False,3.61,23.0,6.53,53.66,65.39,0.0,36130,69.31,21.38,True,36.37,False,0.97,missing history but useful periods
+1445,slow,18,False,99.55,54.49,1.33,0.09,0.0,0.0,36702,70.41,21.92,True,16.46,False,0.54,missing history but useful periods
+2381,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,5.99,False,1.2,missing history but useful periods
+2379,slow,18,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,0.0,False,1.13,missing history but useful periods
+1442,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,22.32,False,1.22,missing history but useful periods
+1431,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,53.34,True,0.5,clearly bad
+2375,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,19.74,False,1.0,missing history but useful periods
+1959,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,7.32,False,0.25,missing history but useful periods
+1958,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.8,False,0.78,missing history but useful periods
+1957,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,28.34,False,0.74,missing history but useful periods
+1064,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,18.92,False,0.2,missing history but useful periods
+1062,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,14.18,False,0.82,missing history but useful periods
+1056,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,9.68,False,0.86,missing history but useful periods
+2606,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,16.51,False,2.51,missing history but useful periods
+2343,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.48,missing history but useful periods
+2339,slow,28,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,2.53,False,0.21,missing history but useful periods
+2312,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,59.7,True,0.2,clearly bad
+2311,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,3.0,False,0.29,missing history but useful periods
+2012,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,18.04,False,1.04,missing history but useful periods
+1973,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,6.21,False,0.34,missing history but useful periods
+2637,slow,12,False,3.61,22.97,6.54,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,1.48,missing history but useful periods
+1412,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,35.47,False,0.31,missing history but useful periods
+1409,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,4.02,False,0.24,missing history but useful periods
+2386,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,14.87,False,0.45,missing history but useful periods
+2385,slow,18,False,3.61,22.97,6.54,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.59,missing history but useful periods
+2383,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,57.66,True,1.04,clearly bad
+2604,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,20.25,False,1.71,missing history but useful periods
+1097,slow,24,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.62,False,1.36,missing history but useful periods
+1095,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,34.64,False,0.03,missing history but useful periods
+1089,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,9.78,False,0.69,missing history but useful periods
+1088,slow,8,False,3.61,22.97,6.53,0.0,32.05,96.9,36084,69.22,21.92,True,35.67,False,1.21,missing history but useful periods
+1966,slow,30,False,3.63,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,4.2,False,1.13,missing history but useful periods
+2026,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,42.01,False,0.44,missing history but useful periods
+2382,slow,5,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,54.53,True,0.42,clearly bad
+1928,slow,2,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,53.94,True,0.54,clearly bad
+1927,slow,18,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,1.12,False,0.09,missing history but useful periods
+2634,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,4.17,False,2.01,missing history but useful periods
+2633,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,28.35,False,1.52,missing history but useful periods
+2629,slow,16,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,6.56,False,0.98,missing history but useful periods
+2587,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,51.61,True,0.0,clearly bad
+1105,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,22.46,False,0.94,missing history but useful periods
+1900,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,72.85,True,0.17,clearly bad
+2036,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,9.48,False,1.05,missing history but useful periods
+2034,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,26.3,False,1.36,missing history but useful periods
+2027,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,9.4,False,1.54,missing history but useful periods
+1941,slow,10,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,16.39,False,0.13,missing history but useful periods
+1938,slow,6,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,37.46,False,0.59,missing history but useful periods
+1937,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,19.6,False,1.47,missing history but useful periods
+2057,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,30.41,False,0.31,missing history but useful periods
+2669,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.97,missing history but useful periods
+2062,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,36.94,False,0.76,missing history but useful periods
+1892,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,95.59,True,0.2,clearly bad
+1889,slow,8,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,54.34,True,0.3,clearly bad
+1884,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,81.74,True,0.14,clearly bad
+1882,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,99.31,True,0.1,clearly bad
+1143,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.93,False,0.72,missing history but useful periods
+1142,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,5.41,False,1.04,missing history but useful periods
+1140,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,2.23,False,0.52,missing history but useful periods
+1137,slow,12,False,3.62,22.97,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,2.8,False,0.19,missing history but useful periods
+1134,slow,24,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.45,missing history but useful periods
+1873,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,34.01,False,0.56,missing history but useful periods
+2087,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.99,False,0.04,missing history but useful periods
+2050,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,47.84,False,1.94,missing history but useful periods
+2049,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,10.97,False,2.11,missing history but useful periods
+2045,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,18.48,False,0.53,missing history but useful periods
+2043,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,21.45,False,2.0,missing history but useful periods
+2550,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,12.49,False,0.34,missing history but useful periods
+2548,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,40.57,False,0.88,missing history but useful periods
+2542,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,3.23,False,0.83,missing history but useful periods
+2540,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,7.56,False,0.22,missing history but useful periods
+2570,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,28.78,False,0.12,missing history but useful periods
+2562,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,33.94,False,0.56,missing history but useful periods
+1130,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,19.45,False,0.28,missing history but useful periods
+1125,slow,9,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.06,missing history but useful periods
+2602,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,67.91,True,2.34,clearly bad
+2601,slow,18,False,3.63,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,72.82,True,2.76,clearly bad
+1160,slow,3,False,3.61,22.98,6.54,0.0,32.05,96.88,36083,69.22,21.92,True,44.7,False,0.75,missing history but useful periods
+1153,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.31,False,0.84,missing history but useful periods
+1152,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,2.96,False,0.88,missing history but useful periods
+1853,slow,13,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,48.25,False,0.51,missing history but useful periods
+2069,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,3.07,False,0.44,missing history but useful periods
+2064,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,20.05,False,0.59,missing history but useful periods
+1847,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,16.48,False,0.08,missing history but useful periods
+1842,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,49.15,False,0.59,missing history but useful periods
+1841,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,17.24,False,1.22,missing history but useful periods
+1840,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.6,missing history but useful periods
+1836,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,61.76,True,3.96,clearly bad
+1832,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,81.69,True,1.03,clearly bad
+1831,slow,22,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.91,missing history but useful periods
+2075,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.04,False,0.94,missing history but useful periods
+1860,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,95.59,True,0.41,clearly bad
+1856,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,61.17,True,0.34,clearly bad
+1147,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,0.0,False,0.52,missing history but useful periods
+2586,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,13.08,False,0.02,missing history but useful periods
+2578,slow,22,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.25,missing history but useful periods
+2577,slow,12,False,3.63,22.97,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,12.1,False,0.86,missing history but useful periods
+2576,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,28.96,False,1.47,missing history but useful periods
+2551,slow,12,False,3.63,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,3.63,False,0.48,missing history but useful periods
+1488,slow,7,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,62.6,True,0.3,clearly bad
+2361,slow,12,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,0.77,False,0.64,missing history but useful periods
+2357,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,99.31,True,0.78,clearly bad
+2350,slow,8,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,18.44,False,0.7,missing history but useful periods
+1481,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,79.46,True,4.78,clearly bad
+1361,slow,10,False,3.61,22.97,6.54,0.0,32.05,96.88,36084,69.22,21.92,True,58.7,True,0.28,clearly bad
+1360,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,5.49,False,2.05,missing history but useful periods
+1359,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,89.38,True,0.48,clearly bad
+1356,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,44.98,False,0.26,missing history but useful periods
+1355,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,91.42,True,0.33,clearly bad
+2526,slow,30,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,1.71,False,0.2,missing history but useful periods
+2523,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,95.34,True,0.18,clearly bad
+1178,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,9.35,False,0.16,missing history but useful periods
+1177,slow,22,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,6.17,False,0.78,missing history but useful periods
+1808,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.22,missing history but useful periods
+2137,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,15.97,False,0.38,missing history but useful periods
+2121,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,35.28,False,0.16,missing history but useful periods
+2107,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.9,36084,69.22,21.92,True,39.91,False,0.16,missing history but useful periods
+1818,slow,5,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,54.01,True,0.55,clearly bad
+1815,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,3.55,False,0.5,missing history but useful periods
+2561,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,14.94,False,0.51,missing history but useful periods
+2559,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,63.56,True,1.91,clearly bad
+2556,slow,12,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,1.95,False,0.54,missing history but useful periods
+1161,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,2.82,False,0.93,missing history but useful periods
+2531,slow,3,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,10.62,False,0.5,missing history but useful periods
+2529,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,0.0,False,0.48,missing history but useful periods
+2528,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,6.61,False,0.92,missing history but useful periods
+2397,slow,16,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.84,False,2.09,missing history but useful periods
+2395,slow,14,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,78.29,True,1.0,clearly bad
+1417,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,94.11,True,0.4,clearly bad
+1452,slow,14,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,0.96,False,0.23,missing history but useful periods
+1451,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,18.43,False,0.89,missing history but useful periods
+1782,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,36.24,False,0.32,missing history but useful periods
+1778,slow,1,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,92.69,True,0.52,clearly bad
+1776,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,66.49,True,3.38,clearly bad
+1775,slow,1,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,96.56,True,0.77,clearly bad
+1774,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,34.63,False,0.3,missing history but useful periods
+1772,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,38.57,False,0.36,missing history but useful periods
+2163,slow,34,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,0.0,False,0.81,missing history but useful periods
+2133,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,23.59,False,0.84,missing history but useful periods
+2127,slow,12,False,3.61,22.97,6.54,0.0,32.05,96.88,36084,69.22,21.92,True,32.88,False,0.36,missing history but useful periods
+2124,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,40.99,False,0.43,missing history but useful periods
+1801,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,73.52,True,0.41,clearly bad
+1796,slow,3,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,22.43,False,0.57,missing history but useful periods
+1792,slow,18,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,0.0,False,0.94,missing history but useful periods
+1787,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,60.96,True,0.33,clearly bad
+1823,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,83.66,True,0.13,clearly bad
+1819,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,8.63,False,0.3,missing history but useful periods
+1201,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,8.45,False,0.51,missing history but useful periods
+1196,slow,12,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,7.62,False,0.53,missing history but useful periods
+2515,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,11.84,False,0.27,missing history but useful periods
+2509,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,6.08,False,0.16,missing history but useful periods
+2507,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,90.42,True,0.35,clearly bad
+1193,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,35.33,False,0.57,missing history but useful periods
+1190,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,7.36,False,0.24,missing history but useful periods
+1757,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,10.16,False,1.62,missing history but useful periods
+2179,slow,4,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,27.37,False,0.55,missing history but useful periods
+2178,slow,9,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,70.65,True,0.89,clearly bad
+2177,slow,4,False,3.61,22.97,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,81.84,True,0.53,clearly bad
+2150,slow,4,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,89.72,True,0.36,clearly bad
+2147,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,27.37,False,0.67,missing history but useful periods
+2142,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,19.15,False,0.53,missing history but useful periods
+1786,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.89,36082,69.22,21.92,True,58.63,True,0.55,clearly bad
+1783,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,34.49,False,0.32,missing history but useful periods
+1749,slow,4,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,46.79,False,0.91,missing history but useful periods
+1745,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,3.63,False,0.64,missing history but useful periods
+1740,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,90.68,True,0.61,clearly bad
+1739,slow,36,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.97,missing history but useful periods
+1738,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,74.6,True,0.66,clearly bad
+2160,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,68.34,True,0.26,clearly bad
+2159,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,89.29,True,0.88,clearly bad
+2158,slow,9,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,8.67,False,0.64,missing history but useful periods
+2157,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,2.65,False,0.65,missing history but useful periods
+1769,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.04,False,3.33,missing history but useful periods
+1768,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,91.58,True,3.33,clearly bad
+1764,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,70.77,True,0.88,clearly bad
+1169,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,8.45,False,1.21,missing history but useful periods
+1168,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,7.78,False,1.22,missing history but useful periods
+1166,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,8.59,False,0.62,missing history but useful periods
+1165,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,0.0,False,0.95,missing history but useful periods
+2202,slow,7,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,17.91,False,0.36,missing history but useful periods
+2198,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,16.35,False,0.64,missing history but useful periods
+1187,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,89.92,True,1.03,clearly bad
+1185,slow,18,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,3.16,False,0.28,missing history but useful periods
+1180,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,6.95,False,0.42,missing history but useful periods
+2537,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.53,missing history but useful periods
+2500,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,18.52,False,0.03,missing history but useful periods
+2499,slow,7,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,0.97,False,0.16,missing history but useful periods
+2491,slow,1,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,7.76,False,0.26,missing history but useful periods
+1241,slow,16,False,3.61,22.97,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,30.09,False,0.09,missing history but useful periods
+1236,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.89,36082,69.22,21.92,True,18.73,False,0.76,missing history but useful periods
+1235,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,47.83,False,0.74,missing history but useful periods
+1234,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,7.68,False,1.86,missing history but useful periods
+1719,slow,36,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,1.64,False,0.82,missing history but useful periods
+1712,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,10.44,False,0.16,missing history but useful periods
+1751,slow,1,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,88.76,True,0.33,clearly bad
+2377,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,95.39,True,0.55,clearly bad
+2376,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,2.81,False,0.7,missing history but useful periods
+2338,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,10.8,False,0.12,missing history but useful periods
+2333,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,52.42,True,0.36,clearly bad
+1507,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,6.88,False,1.23,missing history but useful periods
+1344,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,22.51,False,0.36,missing history but useful periods
+1375,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,4.59,False,0.87,missing history but useful periods
+1374,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,38.03,False,0.26,missing history but useful periods
+2442,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.35,missing history but useful periods
+1703,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,39.23,False,0.24,missing history but useful periods
+1701,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,65.93,True,1.51,clearly bad
+1698,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,17.92,False,0.87,missing history but useful periods
+1697,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,65.16,True,1.59,clearly bad
+1696,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,12.17,False,0.44,missing history but useful periods
+1695,slow,11,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,8.64,False,2.4,missing history but useful periods
+1725,slow,4,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,83.46,True,0.92,clearly bad
+2475,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,2.29,False,0.51,missing history but useful periods
+1272,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,31.83,False,1.88,missing history but useful periods
+1270,slow,20,False,3.62,22.97,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,0.0,False,0.03,missing history but useful periods
+1680,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,14.05,False,0.77,missing history but useful periods
+1675,slow,16,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,2.57,False,0.54,missing history but useful periods
+2246,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,71.21,True,0.14,clearly bad
+2218,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.9,36084,69.22,21.92,True,44.73,False,1.29,missing history but useful periods
+2211,slow,4,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,18.29,False,0.44,missing history but useful periods
+2210,slow,1,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,84.05,True,0.45,clearly bad
+2209,slow,5,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,96.59,True,0.31,clearly bad
+2418,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,2.84,False,0.35,missing history but useful periods
+1400,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,22.68,False,0.49,missing history but useful periods
+1397,slow,5,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,93.12,True,0.29,clearly bad
+1391,slow,6,False,3.62,22.97,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,21.98,False,0.3,missing history but useful periods
+1473,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,12.34,False,1.46,missing history but useful periods
+1470,slow,5,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,65.5,True,0.68,clearly bad
+1653,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.8,False,0.03,missing history but useful periods
+1647,slow,10,False,3.63,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,16.04,False,0.29,missing history but useful periods
+1641,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,10.43,False,0.55,missing history but useful periods
+1634,slow,16,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,68.12,True,0.14,clearly bad
+1693,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,18.31,False,2.6,missing history but useful periods
+2234,slow,5,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,7.25,False,0.25,missing history but useful periods
+2227,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,10.52,False,0.34,missing history but useful periods
+1690,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,6.29,False,3.48,missing history but useful periods
+1689,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,29.26,False,0.46,missing history but useful periods
+1688,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,12.75,False,0.57,missing history but useful periods
+1228,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,17.01,False,0.95,missing history but useful periods
+1225,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,5.04,False,0.63,missing history but useful periods
+1209,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,67.96,True,0.49,clearly bad
+1278,slow,8,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,53.62,True,0.14,clearly bad
+2489,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,6.85,False,0.16,missing history but useful periods
+2482,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,86.9,True,0.63,clearly bad
+2465,slow,5,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,51.3,True,0.44,clearly bad
+2463,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,2.19,False,0.32,missing history but useful periods
+1315,slow,1,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,61.24,True,0.17,clearly bad
+1309,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.86,False,0.28,missing history but useful periods
+1605,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,82.36,True,0.3,clearly bad
+1604,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,20.21,False,1.0,missing history but useful periods
+1601,slow,30,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,3.3,False,0.42,missing history but useful periods
+1598,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.9,36084,69.22,21.92,True,17.0,False,0.84,missing history but useful periods
+2245,slow,8,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,14.52,False,0.47,missing history but useful periods
+2243,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,87.7,True,0.27,clearly bad
+1670,slow,13,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,2.57,False,0.72,missing history but useful periods
+1668,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,19.5,False,0.72,missing history but useful periods
+1665,slow,8,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,9.17,False,0.81,missing history but useful periods
+1662,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,18.49,False,0.12,missing history but useful periods
+1660,slow,14,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,4.68,False,0.74,missing history but useful periods
+1591,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,7.98,False,1.3,missing history but useful periods
+1585,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,5.27,False,0.64,missing history but useful periods
+1584,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,53.16,True,0.88,clearly bad
+1632,slow,1,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,45.18,False,0.44,missing history but useful periods
+1617,slow,10,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,1.92,False,0.43,missing history but useful periods
+1614,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,15.05,False,0.15,missing history but useful periods
+1612,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,95.54,True,0.08,clearly bad
+1610,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.89,36082,69.22,21.92,True,62.8,True,0.93,clearly bad
+1606,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,52.12,True,0.16,clearly bad
+1262,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,4.11,False,0.64,missing history but useful periods
+1257,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.81,False,0.32,missing history but useful periods
+1256,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,66.66,True,1.33,clearly bad
+1250,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,11.69,False,0.08,missing history but useful periods
+1326,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,7.25,False,0.39,missing history but useful periods
+2473,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,4.67,False,0.31,missing history but useful periods
+2469,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,29.75,False,0.81,missing history but useful periods
+1545,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,8.95,False,0.56,missing history but useful periods
+1542,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,4.18,False,1.08,missing history but useful periods
+1531,slow,10,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,1.71,False,0.89,missing history but useful periods
+2290,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,99.31,True,0.57,clearly bad
+2287,slow,24,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.3,False,0.36,missing history but useful periods
+2284,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,0.0,False,0.09,missing history but useful periods
+1577,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,16.81,False,0.94,missing history but useful periods
+1576,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,0.0,False,0.13,missing history but useful periods
+1572,slow,18,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,0.0,False,0.8,missing history but useful periods
+1570,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.11,missing history but useful periods
+1568,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,23.46,False,0.73,missing history but useful periods
+2282,slow,6,False,3.61,22.97,6.54,0.0,32.05,96.88,36084,69.22,21.92,True,20.27,False,0.29,missing history but useful periods
+2280,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,77.07,True,0.56,clearly bad
+2278,slow,9,False,3.61,22.98,6.53,0.0,32.06,96.88,36082,69.22,21.92,True,0.0,False,0.09,missing history but useful periods
+2276,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,68.04,True,0.22,clearly bad
+2271,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,0.0,False,0.39,missing history but useful periods
+1494,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,14.95,False,0.71,missing history but useful periods
+1493,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,28.84,False,0.19,missing history but useful periods
+1490,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,1.76,False,1.34,missing history but useful periods
+2329,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.06,missing history but useful periods
+2328,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,17.6,False,0.45,missing history but useful periods
+2323,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,5.63,False,0.23,missing history but useful periods
+2320,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,5.68,False,0.43,missing history but useful periods
+1519,slow,18,False,3.62,22.98,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,0.0,False,1.12,missing history but useful periods
+2346,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,25.94,False,0.36,missing history but useful periods
+2457,slow,4,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,99.31,True,2.92,clearly bad
+2454,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,3.82,False,1.14,missing history but useful periods
+2452,slow,24,False,3.61,22.97,6.53,0.0,32.05,96.9,36084,69.22,21.92,True,14.99,False,0.14,missing history but useful periods
+2445,slow,7,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,6.44,False,0.28,missing history but useful periods
+1352,slow,1,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,66.71,True,0.33,clearly bad
+1345,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,7.03,False,0.58,missing history but useful periods
+1552,slow,5,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,37.4,False,0.4,missing history but useful periods
+2308,slow,10,False,3.61,23.0,6.53,0.0,32.05,96.88,36082,69.22,21.92,True,0.94,False,0.7,missing history but useful periods
+2305,slow,6,False,3.62,22.97,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,24.92,False,0.34,missing history but useful periods
+2304,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,0.6,missing history but useful periods
+1561,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,10.17,False,1.06,missing history but useful periods
+1290,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,11.09,False,0.07,missing history but useful periods
+1289,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,55.32,True,0.1,clearly bad
+1286,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,59.72,True,1.79,clearly bad
+1285,slow,4,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,41.62,False,1.35,missing history but useful periods
+1282,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,17.99,False,2.75,missing history but useful periods
+1281,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,37.27,False,1.63,missing history but useful periods
+2441,slow,6,False,3.61,22.97,6.54,0.0,32.05,96.88,36084,69.22,21.92,True,1.36,False,0.35,missing history but useful periods
+2440,slow,4,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.93,False,0.37,missing history but useful periods
+2438,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,18.38,False,0.76,missing history but useful periods
+2436,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,51.89,True,0.78,clearly bad
+1364,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,91.15,True,0.37,clearly bad
+1495,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,5.4,False,1.26,missing history but useful periods
+1018,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,93.47,True,3.07,clearly bad
+2660,slow,14,False,3.61,22.97,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,15.37,False,2.75,missing history but useful periods
+2657,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,23.42,False,5.84,missing history but useful periods
+2656,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,77.25,True,5.84,clearly bad
+1003,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,65.88,True,0.56,clearly bad
+2374,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,10.0,False,1.03,missing history but useful periods
+2372,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.64,False,1.3,missing history but useful periods
+1466,slow,8,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,14.87,False,1.77,missing history but useful periods
+1460,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,23.1,False,0.26,missing history but useful periods
+1458,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,18.83,False,0.24,missing history but useful periods
+1424,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,33.57,False,1.28,missing history but useful periods
+1423,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,26.5,False,1.28,missing history but useful periods
+2053,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,26.08,False,0.68,missing history but useful periods
+2018,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,15.98,False,1.19,missing history but useful periods
+2017,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,1.16,missing history but useful periods
+2016,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,9.14,False,0.83,missing history but useful periods
+2676,slow,9,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,5.33,missing history but useful periods
+2677,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,1.03,False,5.59,missing history but useful periods
+2680,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,56.15,True,2.87,clearly bad
+2042,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,68.77,True,1.69,clearly bad
+1956,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,7.36,False,0.79,missing history but useful periods
+1068,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,91.35,True,0.89,clearly bad
+1071,slow,18,False,3.61,22.97,6.53,0.0,32.05,96.89,36083,69.22,21.92,True,5.51,False,0.31,missing history but useful periods
+1080,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,6.55,False,0.05,missing history but useful periods
+1977,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,34.8,False,0.35,missing history but useful periods
+1997,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.88,36084,69.22,21.92,True,0.0,False,2.18,missing history but useful periods
+1998,slow,1,False,3.61,22.98,6.53,0.0,32.06,96.88,36082,69.22,21.92,True,86.26,True,0.42,clearly bad
+1979,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,46.0,False,0.37,missing history but useful periods
+2655,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.9,36084,69.22,21.92,True,2.05,False,5.6,missing history but useful periods
+1994,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,4.03,False,0.13,missing history but useful periods
+2022,slow,18,False,3.62,22.97,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,3.59,False,2.11,missing history but useful periods
+1976,slow,6,False,3.61,23.01,6.53,0.0,32.05,96.88,36081,69.22,21.92,True,31.86,False,0.36,missing history but useful periods
+1441,slow,20,False,3.61,22.97,6.53,0.0,32.05,96.96,36077,69.21,21.92,True,1.8,False,3.92,missing history but useful periods
+1553,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.91,36081,69.22,21.92,True,5.05,False,0.26,missing history but useful periods
+1961,slow,12,False,3.61,23.01,6.53,0.0,32.05,96.92,36080,69.21,21.92,True,21.83,False,0.26,missing history but useful periods
+2324,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.91,36081,69.22,21.92,True,1.52,False,0.64,missing history but useful periods
+1567,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.92,36084,69.22,21.92,True,5.23,False,0.59,missing history but useful periods
+2294,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.94,36084,69.22,21.92,True,18.93,False,0.32,missing history but useful periods
+2443,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,95.35,True,0.65,clearly bad
+1564,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.92,36080,69.21,21.92,True,51.46,True,0.72,clearly bad
+1586,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,37.2,False,0.84,missing history but useful periods
+1633,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.94,36083,69.22,21.92,True,62.41,True,0.61,clearly bad
+1565,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.94,36084,69.22,21.92,True,2.65,False,1.23,missing history but useful periods
+1613,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.9,36082,69.22,21.92,True,95.59,True,0.08,clearly bad
+1639,slow,32,False,3.63,22.97,6.53,0.0,32.05,96.95,36078,69.21,21.92,True,1.94,False,0.5,missing history but useful periods
+2241,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.95,36077,69.21,21.92,True,3.57,False,0.11,missing history but useful periods
+1596,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.91,36081,69.22,21.92,True,17.55,False,0.03,missing history but useful periods
+1759,slow,8,False,3.61,23.0,6.53,0.0,32.05,96.89,36081,69.22,21.92,True,27.83,False,0.57,missing history but useful periods
+1753,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.92,36084,69.22,21.92,True,6.8,False,1.75,missing history but useful periods
+1746,slow,10,False,3.63,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,36.39,False,0.81,missing history but useful periods
+1692,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.95,36077,69.21,21.92,True,9.04,False,0.25,missing history but useful periods
+2214,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.94,36084,69.22,21.92,True,16.37,False,0.39,missing history but useful periods
+2206,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.9,36082,69.22,21.92,True,21.09,False,0.08,missing history but useful periods
+1388,slow,6,False,3.61,22.97,6.53,0.0,32.05,96.94,36084,69.22,21.92,True,15.31,False,0.51,missing history but useful periods
+1183,slow,18,False,3.63,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,6.19,False,0.43,missing history but useful periods
+1164,slow,30,False,3.61,22.98,6.53,0.0,32.05,96.92,36079,69.21,21.92,True,0.0,False,0.8,missing history but useful periods
+1729,slow,3,False,3.61,22.98,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,36.74,False,0.17,missing history but useful periods
+1744,slow,5,False,3.61,23.0,6.53,0.0,32.05,96.91,36079,69.21,21.92,True,4.3,False,1.07,missing history but useful periods
+2362,slow,28,False,3.61,22.98,6.53,0.0,32.05,96.91,36082,69.22,21.92,True,0.0,False,0.65,missing history but useful periods
+2555,slow,12,False,3.61,22.97,6.54,0.0,32.05,96.95,36078,69.21,21.92,True,0.0,False,1.85,missing history but useful periods
+1813,slow,10,False,3.61,22.97,6.54,0.0,32.05,96.95,36078,69.21,21.92,True,14.09,False,1.38,missing history but useful periods
+2130,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.95,36078,69.21,21.92,True,0.0,False,0.36,missing history but useful periods
+2167,slow,10,False,3.61,22.97,6.53,0.0,32.05,96.91,36081,69.22,21.92,True,16.79,False,0.42,missing history but useful periods
+2020,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.91,36082,69.22,21.92,True,1.05,False,2.09,missing history but useful periods
+2051,slow,6,False,3.63,22.98,6.53,0.0,32.05,96.88,36083,69.22,21.92,True,43.18,False,1.08,missing history but useful periods
+2661,slow,2,False,3.61,22.98,6.53,0.0,32.05,96.95,36077,69.21,21.92,True,93.77,True,3.74,clearly bad
+1377,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.91,36081,69.22,21.92,True,20.63,False,0.56,missing history but useful periods
+2019,slow,3,False,3.61,23.0,6.53,0.0,32.05,96.91,36079,69.21,21.92,True,73.76,True,0.61,clearly bad
+2533,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.96,36077,69.21,21.92,True,8.22,False,0.22,missing history but useful periods
+2093,slow,12,False,3.61,22.98,6.53,0.0,32.05,96.9,36082,69.22,21.92,True,93.56,True,0.26,clearly bad
+2092,slow,18,False,3.61,22.97,6.54,0.0,32.05,96.95,36078,69.21,21.92,True,93.3,True,0.26,clearly bad
+1141,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.95,36078,69.21,21.92,True,11.54,False,0.67,missing history but useful periods
+1845,slow,6,False,3.61,22.98,6.54,0.0,32.05,96.92,36079,69.21,21.92,True,88.44,True,0.5,clearly bad
+1864,slow,8,False,3.61,22.98,6.53,0.0,32.05,96.91,36080,69.21,21.92,True,33.58,False,0.33,missing history but useful periods
+1863,slow,26,False,3.61,22.98,6.53,0.0,32.05,96.92,36079,69.21,21.92,True,1.95,False,0.74,missing history but useful periods
+1913,slow,7,False,3.61,22.98,6.53,0.0,32.05,96.9,36083,69.22,21.92,True,13.46,False,0.55,missing history but useful periods
+2549,slow,12,False,3.61,22.97,6.53,0.0,32.05,96.95,36078,69.21,21.92,True,19.52,False,0.75,missing history but useful periods
+1934,slow,4,False,3.61,22.98,6.53,0.0,32.05,96.94,36083,69.22,21.92,True,95.55,True,0.46,clearly bad
+1912,slow,6,False,3.61,22.98,6.53,0.0,32.05,96.95,36079,69.21,21.92,True,35.93,False,0.08,missing history but useful periods
+2635,slow,18,False,3.61,22.98,6.53,0.0,32.05,96.9,36081,69.22,21.92,True,0.0,False,1.03,missing history but useful periods
+2004,slow,12,False,3.61,22.97,6.53,0.0,32.05,97.04,36071,69.2,21.92,True,4.91,False,0.53,missing history but useful periods
+1844,slow,34,False,3.62,22.97,6.53,0.0,32.05,97.02,36071,69.2,21.92,True,0.9,False,0.45,missing history but useful periods
+2135,slow,12,False,3.61,22.97,6.53,0.0,32.05,97.02,36072,69.2,21.92,True,10.96,False,0.95,missing history but useful periods
+2340,slow,10,False,3.61,22.97,6.53,0.0,32.05,97.05,36070,69.2,21.92,True,0.0,False,0.42,missing history but useful periods
+1443,slow,30,False,3.62,22.98,6.53,0.0,32.06,97.02,36069,69.19,21.92,True,0.0,False,3.94,missing history but useful periods
+1277,slow,4,False,3.61,22.98,6.53,0.0,32.05,100.0,35996,69.05,21.92,True,18.24,False,2.07,missing history but useful periods
+1050,slow,5,False,20.87,23.85,28.89,29.2,29.17,29.25,36304,69.64,0.67,True,0.0,False,0.93,"mostly missing, no long useful period"
+1705,slow,11,False,99.55,60.79,1.33,0.04,0.0,0.0,36140,69.33,21.92,True,0.0,False,1.35,missing history but useful periods
+1076,slow,98,False,99.7,63.77,1.33,0.09,0.0,0.0,35863,68.8,21.92,True,0.0,False,0.31,missing history but useful periods
+1825,slow,49,False,99.55,63.9,1.33,0.09,0.0,0.0,35863,68.8,21.92,True,0.0,False,2.04,missing history but useful periods
+2414,slow,26,False,42.82,0.07,1.33,0.0,32.05,96.92,35189,67.5,29.08,True,33.57,False,0.17,missing history but useful periods
+2008,slow,36,False,3.61,23.0,6.53,0.0,45.99,97.05,34830,66.82,21.92,True,4.69,False,0.19,missing history but useful periods
+2543,slow,16,False,99.7,73.85,1.33,0.09,0.0,0.0,34962,67.07,21.92,True,4.92,False,0.3,missing history but useful periods
+1367,slow,12,False,99.7,76.72,1.33,0.09,0.0,0.0,34705,66.58,21.92,True,11.06,False,0.68,missing history but useful periods
+2618,slow,38,False,99.85,76.75,1.34,0.08,0.0,0.0,34690,66.55,21.92,True,0.0,False,0.07,missing history but useful periods
+1122,slow,16,False,3.61,22.98,35.86,0.0,32.05,96.89,33548,64.36,21.92,True,2.16,False,0.17,missing history but useful periods
+1533,slow,20,False,3.61,22.98,35.86,0.0,32.05,96.88,33549,64.36,21.92,True,0.0,False,1.27,missing history but useful periods
+2259,slow,12,False,3.61,22.98,35.86,0.0,32.05,96.88,33549,64.36,21.92,True,9.36,False,0.53,missing history but useful periods
+1908,slow,12,False,3.61,22.98,35.86,0.0,32.05,96.88,33549,64.36,21.92,True,1.48,False,1.48,missing history but useful periods
+2010,slow,6,False,3.61,22.98,35.86,0.0,32.05,96.88,33549,64.36,21.92,True,2.65,False,1.11,missing history but useful periods
+2679,slow,12,False,3.61,22.98,35.86,0.0,32.05,96.88,33549,64.36,21.92,True,0.0,False,7.66,missing history but useful periods
+1780,slow,6,False,3.61,22.98,35.86,0.0,32.05,96.88,33549,64.36,21.92,True,41.94,False,0.23,missing history but useful periods
+2472,slow,12,False,3.61,23.0,35.86,0.0,32.05,96.88,33548,64.36,21.92,True,4.06,False,0.19,missing history but useful periods
+1865,slow,6,False,3.61,22.98,35.86,0.0,32.05,96.88,33549,64.36,21.92,True,80.44,True,0.11,clearly bad
+1713,slow,8,False,3.61,22.98,35.86,0.0,32.05,96.88,33549,64.36,21.92,True,5.05,False,0.66,missing history but useful periods
+1880,slow,10,False,3.61,22.98,35.86,0.0,32.05,96.89,33548,64.36,21.92,True,59.42,True,0.62,clearly bad
+1971,slow,8,False,3.61,22.98,35.86,0.0,32.05,96.88,33549,64.36,21.92,True,80.33,True,1.52,clearly bad
+2256,slow,6,False,3.61,22.98,35.86,0.0,32.05,96.94,33549,64.36,21.92,True,13.28,False,0.05,missing history but useful periods
+1413,slow,6,False,3.61,23.0,35.86,0.0,32.05,96.89,33547,64.36,21.92,True,9.26,False,0.17,missing history but useful periods
+1972,slow,6,False,3.61,23.0,35.86,0.0,32.05,96.95,33542,64.35,21.92,True,95.97,True,1.52,clearly bad
+2103,slow,36,False,3.61,22.98,35.86,0.0,32.05,97.02,33537,64.34,21.92,True,0.0,False,0.02,missing history but useful periods
+1579,slow,22,False,0.0,0.07,1.33,0.04,97.31,97.99,33008,63.32,29.08,True,8.36,False,0.21,missing history but useful periods
+1930,slow,24,False,0.0,0.07,1.33,2.88,97.73,97.66,32758,62.84,29.08,True,11.89,False,0.07,missing history but useful periods
+1523,slow,3,False,100.0,89.5,4.94,0.15,0.0,0.0,33223,63.73,21.92,True,85.06,True,0.29,clearly bad
+1854,slow,20,False,75.27,0.07,0.0,0.0,32.05,96.9,32525,62.39,23.95,True,3.11,False,0.78,missing history but useful periods
+2118,slow,16,False,100.0,89.5,8.15,0.15,0.0,0.0,32948,63.21,21.92,True,6.61,False,0.08,missing history but useful periods
+1810,slow,29,False,100.0,89.85,8.02,0.2,0.0,0.0,32933,63.18,21.92,True,0.0,False,1.47,missing history but useful periods
+1430,slow,76,False,0.0,0.07,0.0,9.23,97.82,97.56,32322,62.01,29.08,True,1.29,False,0.14,missing history but useful periods
+1380,slow,41,False,100.0,89.57,11.48,0.2,0.0,0.0,32660,62.65,21.92,True,0.0,False,0.14,missing history but useful periods
+1909,slow,23,False,0.0,0.07,1.33,15.77,97.82,98.41,31595,60.61,29.08,True,16.93,False,1.26,missing history but useful periods
+2314,slow,36,False,46.55,51.22,93.02,19.83,0.0,0.0,31328,60.1,21.92,True,0.0,False,0.7,missing history but useful periods
+2080,slow,24,False,89.03,0.07,1.33,0.0,32.05,96.9,31220,59.89,21.92,True,13.24,False,0.26,missing history but useful periods
+2425,slow,8,False,89.03,0.07,1.33,0.0,32.05,96.94,31220,59.89,21.92,True,18.53,False,1.54,missing history but useful periods
+1727,slow,36,False,89.19,0.07,1.33,0.0,32.07,97.11,31186,59.83,21.92,True,56.6,True,0.14,clearly bad
+1791,slow,5,False,66.68,23.0,6.54,0.0,32.05,96.88,30657,58.81,21.92,True,10.62,False,0.77,missing history but useful periods
+2155,slow,6,False,3.61,7.59,41.96,98.84,65.76,0.0,30407,58.33,18.79,True,11.83,False,0.69,missing history but useful periods
+2153,slow,8,False,3.61,7.61,41.96,98.87,65.76,0.0,30403,58.32,18.79,True,8.22,False,0.63,missing history but useful periods
+1378,slow,62,False,100.0,89.65,11.48,0.04,0.0,20.97,30959,59.39,21.92,True,0.0,False,0.31,missing history but useful periods
+1482,slow,99,False,100.0,90.55,33.45,0.21,0.0,0.0,30739,58.97,21.92,True,0.0,False,0.74,missing history but useful periods
+1687,slow,12,False,3.61,22.97,6.53,0.0,99.87,96.96,30190,57.92,21.92,True,4.87,False,2.31,missing history but useful periods
+1462,slow,1,False,93.01,19.0,0.0,0.0,32.05,96.88,29338,56.28,21.92,True,98.27,True,0.46,clearly bad
+2296,slow,11,False,93.01,19.0,0.0,0.0,32.05,96.94,29338,56.28,21.92,True,98.29,True,0.91,clearly bad
+2300,slow,6,False,93.26,19.0,0.0,0.0,32.05,96.88,29325,56.26,21.92,True,0.0,False,0.85,missing history but useful periods
+2536,slow,20,False,93.17,19.06,1.33,0.0,32.05,96.88,29217,56.05,21.92,True,5.86,False,0.72,missing history but useful periods
+2599,slow,30,False,93.41,19.07,1.33,0.0,32.06,96.88,29189,55.99,21.92,True,2.25,False,0.03,missing history but useful periods
+2104,slow,18,False,99.85,87.13,49.66,0.16,0.0,0.0,29631,56.84,21.92,True,0.0,False,0.41,missing history but useful periods
+1340,slow,39,False,100.0,90.43,46.9,0.17,0.0,0.0,29572,56.73,21.92,True,1.43,False,0.33,missing history but useful periods
+1342,slow,36,False,100.0,90.73,53.63,0.13,0.0,0.0,28974,55.58,21.92,True,0.0,False,1.37,missing history but useful periods
+1421,slow,17,False,100.0,90.78,53.67,0.2,0.0,0.0,28974,55.58,21.92,True,8.97,False,0.17,missing history but useful periods
+2224,slow,4,False,3.61,22.98,100.0,0.01,32.05,96.88,28593,54.85,21.92,True,42.85,False,0.54,missing history but useful periods
+2190,slow,2,False,20.91,26.47,28.88,29.17,51.84,97.56,28572,54.81,0.67,True,0.0,False,0.36,"mostly missing, no long useful period"
+1479,slow,4,False,100.0,23.0,6.53,0.0,32.05,96.9,28354,54.39,21.92,True,33.51,False,1.11,missing history but useful periods
+2605,slow,25,False,0.0,0.07,1.33,57.72,98.08,99.42,27838,53.4,29.08,True,4.36,False,2.54,missing history but useful periods
+1033,slow,38,False,0.0,0.07,1.33,57.71,98.23,99.58,27812,53.35,29.08,True,0.99,False,0.06,missing history but useful periods
+2447,slow,8,False,29.21,29.13,29.18,29.22,51.8,97.16,27692,53.12,0.51,True,0.0,False,0.92,"mostly missing, no long useful period"
+2277,slow,22,False,95.73,40.99,1.33,0.0,32.05,96.88,27259,52.29,21.92,True,0.0,False,0.33,missing history but useful periods
+1405,slow,15,False,100.0,91.97,77.16,0.28,0.0,0.0,26938,51.68,21.92,True,1.1,False,0.26,missing history but useful periods
+2173,slow,12,False,0.0,0.08,1.33,79.54,98.47,100.0,25850,49.59,29.08,True,14.51,False,0.57,missing history but useful periods
+1171,slow,36,False,3.61,22.97,6.53,53.83,98.08,99.42,25375,48.68,21.38,True,0.0,False,0.82,missing history but useful periods
+1500,slow,66,False,100.0,93.91,87.06,0.21,0.0,0.0,26102,50.07,21.91,True,3.56,False,0.11,missing history but useful periods
+1715,slow,6,False,100.0,93.44,90.13,0.35,0.0,0.0,25808,49.51,21.92,True,31.6,False,0.58,missing history but useful periods
+1131,slow,36,False,99.4,67.57,0.0,0.0,32.05,96.9,24980,47.92,21.92,True,68.34,True,0.78,clearly bad
+1341,slow,46,False,4.11,0.24,0.05,95.4,98.56,100.0,24212,46.45,21.38,True,65.16,True,1.37,clearly bad
+2223,slow,97,False,100.0,89.55,7.87,0.11,32.05,96.95,22304,42.79,21.92,True,0.0,False,1.63,missing history but useful periods
+1897,slow,11,False,100.0,100.0,95.84,32.2,0.0,0.0,22681,43.51,20.35,True,7.55,False,0.13,missing history but useful periods
+1432,slow,11,False,100.0,89.53,23.97,0.1,32.05,96.88,20909,40.11,21.92,True,58.54,True,0.2,clearly bad
+1079,slow,15,False,77.19,54.28,74.04,77.22,53.28,0.0,20966,40.22,13.58,True,14.23,False,0.12,missing history but useful periods
+1086,slow,18,False,75.64,58.0,70.16,83.11,54.5,0.0,20442,39.22,13.58,True,1.84,False,0.15,missing history but useful periods
+1862,slow,12,False,100.0,90.36,49.53,0.17,32.05,96.88,18679,35.83,21.91,True,18.83,False,0.54,missing history but useful periods
+1151,slow,12,False,100.0,90.32,49.64,0.17,32.05,96.88,18680,35.83,21.92,True,45.31,False,2.41,missing history but useful periods
+2335,slow,26,False,100.0,90.48,49.53,0.16,32.05,96.88,18680,35.83,21.92,True,10.93,False,0.06,missing history but useful periods
+1167,slow,34,False,100.0,90.52,49.53,0.16,32.05,96.9,18667,35.81,21.92,True,1.69,False,0.79,missing history but useful periods
+1204,slow,24,False,100.0,90.46,49.62,0.16,32.05,97.09,18658,35.79,21.92,True,19.72,False,0.45,missing history but useful periods
+2154,slow,6,False,100.0,90.32,50.65,0.0,32.05,96.88,18583,35.65,21.92,True,19.59,False,0.69,missing history but useful periods
+2152,slow,8,False,100.0,90.32,50.66,0.0,32.05,96.9,18583,35.65,21.92,True,1.54,False,0.63,missing history but useful periods
+1436,slow,11,False,0.0,0.07,68.46,99.18,100.0,100.0,18282,35.07,29.08,True,7.52,False,0.32,missing history but useful periods
+1871,slow,18,False,74.63,75.27,80.8,82.26,48.86,0.0,19363,37.15,13.58,True,3.55,False,0.69,missing history but useful periods
+1790,slow,5,False,29.32,90.19,93.88,99.69,65.91,0.0,16403,31.47,13.58,True,7.85,False,0.77,missing history but useful periods
+1737,slow,12,False,87.71,63.35,81.32,90.18,60.0,0.0,16948,32.51,13.58,True,7.57,False,0.14,missing history but useful periods
+1135,slow,11,False,100.0,91.35,72.26,0.0,32.05,96.88,16679,32.0,21.92,True,6.48,False,0.34,missing history but useful periods
+2172,slow,16,False,100.0,91.38,72.3,0.0,32.05,96.88,16682,32.0,21.92,True,21.21,False,0.51,missing history but useful periods
+1132,slow,36,False,0.0,21.57,92.6,99.47,100.0,100.0,14265,27.37,29.08,True,0.0,False,0.78,missing history but useful periods
+1108,slow,2,False,13.16,12.57,92.57,99.47,100.0,100.0,13946,26.75,29.08,True,15.26,False,0.49,missing history but useful periods
+1704,slow,12,False,0.0,28.52,92.6,99.44,100.0,100.0,13651,26.19,28.21,True,0.0,False,0.36,missing history but useful periods
+1948,slow,41,False,100.0,100.0,99.83,99.8,19.65,0.0,14918,28.62,13.58,True,8.6,False,0.9,missing history but useful periods
+2678,slow,13,False,100.0,100.0,100.0,99.65,29.23,0.0,14065,26.98,13.58,True,20.97,False,7.12,missing history but useful periods
+1562,slow,20,False,92.79,0.39,60.59,99.08,100.0,100.0,10960,21.03,19.92,True,7.96,False,1.16,missing history but useful periods
+1170,slow,36,False,100.0,100.0,95.9,45.36,32.05,97.05,10835,20.79,16.23,True,0.0,False,0.82,missing history but useful periods
+2504,slow,4,False,100.0,100.0,95.98,45.36,32.05,97.04,10836,20.79,16.23,True,76.99,True,0.97,clearly bad
+2505,slow,24,False,100.0,100.0,96.05,45.36,32.05,97.04,10836,20.79,16.23,True,0.0,False,1.01,missing history but useful periods
+2575,slow,10,False,100.0,100.0,97.18,47.5,32.05,97.11,10639,20.41,15.57,True,76.32,True,1.29,clearly bad
+2387,slow,108,False,65.93,25.95,92.91,99.35,100.0,100.0,8232,15.79,28.07,True,0.0,False,0.71,missing history but useful periods
+2078,slow,10,False,26.26,90.19,93.6,100.0,100.0,100.0,5852,11.23,18.75,True,0.0,False,0.25,missing history but useful periods
+1485,slow,33,False,100.0,100.0,100.0,99.85,98.39,21.27,6195,11.88,7.67,True,0.0,False,1.26,missing history but useful periods
+1248,slow,17,False,100.0,100.0,100.0,99.85,98.68,36.88,4936,9.47,0.92,True,0.0,False,1.22,"mostly missing, no long useful period"
+1548,slow,3,False,100.0,100.0,99.68,99.71,45.74,97.87,4761,9.13,8.96,True,75.78,True,1.07,clearly bad
+1991,slow,6,False,56.63,91.34,95.81,100.0,100.0,100.0,3283,6.3,11.19,True,63.4,True,0.15,clearly bad
+2664,slow,50,False,100.0,100.0,100.0,99.71,72.84,98.4,2345,4.5,0.92,True,0.0,False,3.5,"mostly missing, no long useful period"
+2682,slow,12,False,100.0,100.0,100.0,100.0,98.71,69.8,2306,4.42,7.67,True,86.47,True,6.98,clearly bad
+1005,slow,6,False,100.0,100.0,100.0,100.0,99.45,88.64,797,1.53,0.62,True,0.0,False,1.57,"mostly missing, no long useful period"
+2176,slow,1,False,98.4,99.47,99.49,100.0,100.0,100.0,99,0.19,0.25,True,0.0,False,0.57,"mostly missing, no long useful period"
+2165,slow,1,False,98.4,99.47,99.49,100.0,100.0,100.0,99,0.19,0.25,True,0.0,False,0.3,"mostly missing, no long useful period"
+1267,slow,11,False,100.0,100.0,100.0,100.0,100.0,97.48,64,0.12,0.05,True,0.0,False,2.19,"mostly missing, no long useful period"
+1895,slow,5,False,100.0,100.0,100.0,100.0,100.0,97.53,52,0.1,0.05,True,0.0,False,0.12,"mostly missing, no long useful period"
+1463,slow,20,False,100.0,100.0,100.0,100.0,100.0,97.64,51,0.1,0.05,True,0.0,False,1.67,"mostly missing, no long useful period"
+1070,slow,82,False,100.0,100.0,100.0,100.0,100.0,97.67,49,0.09,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1244,slow,12,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1716,slow,6,False,100.0,100.0,100.0,100.0,100.0,98.02,55,0.11,0.05,True,0.0,False,0.58,"mostly missing, no long useful period"
+1297,slow,12,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1313,slow,10,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2303,slow,11,False,100.0,100.0,100.0,100.0,100.0,98.02,53,0.1,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1524,slow,3,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.29,"mostly missing, no long useful period"
+1150,slow,23,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,1.07,"mostly missing, no long useful period"
+2189,slow,11,False,100.0,100.0,100.0,100.0,100.0,98.0,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1706,slow,11,False,100.0,100.0,100.0,100.0,100.0,98.0,55,0.11,0.05,True,0.0,False,1.35,"mostly missing, no long useful period"
+1721,slow,24,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2119,slow,16,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.08,"mostly missing, no long useful period"
+2007,slow,12,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2640,slow,22,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1007,slow,10,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1067,slow,10,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1826,slow,49,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,2.04,"mostly missing, no long useful period"
+2544,slow,16,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.3,"mostly missing, no long useful period"
+1394,slow,14,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,1.41,"mostly missing, no long useful period"
+1910,slow,54,False,100.0,100.0,100.0,100.0,100.0,98.02,55,0.11,0.05,True,0.0,False,1.26,"mostly missing, no long useful period"
+1422,slow,17,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.17,"mostly missing, no long useful period"
+1379,slow,61,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.31,"mostly missing, no long useful period"
+1457,slow,4,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.32,"mostly missing, no long useful period"
+1099,slow,38,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1446,slow,18,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.54,"mostly missing, no long useful period"
+1406,slow,15,False,100.0,100.0,100.0,100.0,100.0,98.02,55,0.11,0.05,True,0.0,False,0.26,"mostly missing, no long useful period"
+1438,slow,22,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2366,slow,24,False,100.0,100.0,100.0,100.0,100.0,98.0,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1091,slow,9,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1368,slow,12,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.68,"mostly missing, no long useful period"
+1358,slow,14,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1385,slow,9,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1638,slow,4,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2114,slow,8,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.36,"mostly missing, no long useful period"
+1953,slow,30,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.98,"mostly missing, no long useful period"
+1020,slow,13,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,2.65,"mostly missing, no long useful period"
+2590,slow,15,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1499,slow,15,False,100.0,100.0,100.0,100.0,100.0,98.0,55,0.11,0.05,True,0.0,False,0.46,"mostly missing, no long useful period"
+2572,slow,15,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1949,slow,41,False,100.0,100.0,100.0,100.0,100.0,97.99,55,0.11,0.05,True,0.0,False,0.9,"mostly missing, no long useful period"
+1350,slow,40,False,100.0,100.0,100.0,100.0,100.0,98.04,55,0.11,0.05,True,0.0,False,0.57,"mostly missing, no long useful period"
+2162,slow,43,False,100.0,100.0,100.0,100.0,100.0,98.04,53,0.1,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1077,slow,98,False,100.0,100.0,100.0,100.0,100.0,98.04,53,0.1,0.05,True,0.0,False,0.31,"mostly missing, no long useful period"
+1156,slow,64,False,100.0,100.0,100.0,100.0,100.0,98.04,53,0.1,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1580,slow,28,False,100.0,100.0,100.0,100.0,100.0,98.07,55,0.11,0.05,True,0.0,False,0.21,"mostly missing, no long useful period"
+2410,slow,38,False,100.0,100.0,100.0,100.0,100.0,98.05,53,0.1,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2628,slow,56,False,100.0,100.0,100.0,100.0,100.0,98.09,53,0.1,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1595,slow,41,False,100.0,100.0,100.0,100.0,100.0,98.15,42,0.08,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2149,slow,32,False,100.0,100.0,100.0,100.0,100.0,98.15,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2174,slow,20,False,100.0,100.0,100.0,100.0,100.0,98.12,55,0.11,0.05,True,0.0,False,0.57,"mostly missing, no long useful period"
+1048,slow,20,False,100.0,100.0,100.0,100.0,100.0,98.15,42,0.08,0.05,True,0.0,False,0.28,"mostly missing, no long useful period"
+1709,slow,24,False,100.0,100.0,100.0,100.0,100.0,98.15,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1343,slow,36,False,100.0,100.0,100.0,100.0,100.0,98.15,42,0.08,0.05,True,0.0,False,1.37,"mostly missing, no long useful period"
+1931,slow,50,False,100.0,100.0,100.0,100.0,100.0,98.14,55,0.11,0.05,True,0.0,False,0.07,"mostly missing, no long useful period"
+2391,slow,54,False,100.0,100.0,100.0,100.0,100.0,98.15,42,0.08,0.05,True,0.0,False,1.22,"mostly missing, no long useful period"
+1600,slow,36,False,100.0,100.0,100.0,100.0,100.0,98.15,55,0.11,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+2286,slow,40,False,100.0,100.0,100.0,100.0,100.0,98.15,42,0.08,0.05,True,0.0,False,0.6,"mostly missing, no long useful period"
+1455,slow,37,False,100.0,100.0,100.0,100.0,100.0,98.15,42,0.08,0.05,True,0.0,False,0.32,"mostly missing, no long useful period"
+1381,slow,41,False,100.0,100.0,100.0,100.0,100.0,98.15,42,0.08,0.05,True,0.0,False,0.14,"mostly missing, no long useful period"
+2334,slow,23,False,100.0,100.0,100.0,100.0,100.0,98.2,38,0.07,0.05,True,0.0,False,0.04,"mostly missing, no long useful period"
+2229,slow,40,False,100.0,100.0,100.0,100.0,100.0,98.18,42,0.08,0.05,True,0.0,False,1.1,"mostly missing, no long useful period"
+1211,slow,32,False,100.0,100.0,100.0,100.0,100.0,98.18,42,0.08,0.05,True,0.0,False,0.0,"mostly missing, no long useful period"
+1812,slow,29,False,100.0,100.0,100.0,100.0,100.0,98.16,42,0.08,0.05,True,0.0,False,1.47,"mostly missing, no long useful period"
+1919,slow,15,False,100.0,100.0,100.0,100.0,100.0,98.28,55,0.11,0.05,True,0.0,False,0.78,"mostly missing, no long useful period"
+2390,slow,54,False,100.0,100.0,100.0,100.0,100.0,98.34,40,0.08,0.05,True,0.0,False,1.22,"mostly missing, no long useful period"
+2315,slow,36,False,100.0,100.0,100.0,100.0,100.0,98.34,42,0.08,0.05,True,0.0,False,0.7,"mostly missing, no long useful period"
+2619,slow,39,False,100.0,100.0,100.0,100.0,100.0,98.96,20,0.04,0.05,True,0.0,False,0.07,"mostly missing, no long useful period"
+1427,slow,22,False,100.0,100.0,100.0,100.0,100.0,99.28,0,0.0,0.0,True,0.0,False,0.0,no valid data
+1034,slow,33,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.06,no valid data
+2129,slow,66,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1718,slow,16,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.04,no valid data
+2291,slow,5,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1663,slow,6,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+2337,slow,50,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1478,slow,39,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.67,no valid data
+1487,slow,15,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1101,slow,1,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.6,no valid data
+1113,slow,6,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1497,slow,13,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1337,slow,8,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1501,slow,64,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.11,no valid data
+1082,slow,11,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1055,slow,11,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1036,slow,55,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
+1039,slow,75,False,100.0,100.0,100.0,100.0,100.0,100.0,0,0.0,0.0,True,100.0,True,0.0,no valid data
