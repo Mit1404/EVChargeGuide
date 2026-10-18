@@ -1,0 +1,9 @@
+feature
+current_idle
+current_busy
+capacity
+hour
+minute
+day_of_week
+longitude
+latitude
