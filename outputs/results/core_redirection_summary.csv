@@ -1,0 +1,7 @@
+charger_type,radius_km,core_stations,avg_core_neighbours,avg_all_neighbours,percent_core_with_no_core_neighbour,percent_core_with_no_neighbour_at_all,excluded_stations,percent_excluded_with_core_station_nearby
+fast,2,25,0.24,2.12,76.0,8.0,141,28.37
+fast,5,25,1.84,10.12,20.0,0.0,141,77.3
+fast,10,25,4.96,31.8,4.0,0.0,141,92.91
+slow,2,365,8.99,37.27,3.84,0.82,1196,93.81
+slow,5,365,32.85,140.28,1.1,0.27,1196,99.16
+slow,10,365,80.39,355.61,0.27,0.0,1196,100.0
