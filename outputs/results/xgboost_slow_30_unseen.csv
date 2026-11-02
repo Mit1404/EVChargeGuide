@@ -1,0 +1,2 @@
+experiment,training_rows,unseen_stations,test_rows,validation_mae,validation_rmse,test_mae,test_rmse,persistence_mae,persistence_rmse,best_round
+slow_30,9434994,73,573780,0.2034,0.7301,0.2732,0.8193,0.2832,0.9072,184
