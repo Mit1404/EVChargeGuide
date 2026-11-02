@@ -2,6 +2,7 @@ import pandas as pd
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 from pathlib import Path
+import gc
 
 experiment = "slow_60"  # fast_30, fast_60, slow_30, slow_60
 
@@ -79,22 +80,11 @@ validation["change_last_30_min"] = (
 )
 
 
-
-
-#print("\nTest rows:")
-#print(len(test))
-
-
 # Separate input features and target
 X_train = train[feature_columns]
 y_train = train["target"] - train["current_idle"]
 X_validation = validation[feature_columns]
 y_validation = validation["target"] - validation["current_idle"]
-
-
-#X_test = test[feature_columns]
-#y_test = test["target"]
-
 
 # Create XGBoost regression model
 model = XGBRegressor(
@@ -108,7 +98,6 @@ model = XGBRegressor(
     random_state=42
 )
 
-
 # Train model
 model.fit(
     X_train,
@@ -116,7 +105,6 @@ model.fit(
     eval_set=[(X_validation,y_validation)],
     verbose=50
 )
-
 
 # Predict validation data
 validation_prediction = (model.predict(X_validation)+ validation["current_idle"].to_numpy())
@@ -155,30 +143,6 @@ print("MAE:", round(persistence_mae, 4))
 print("RMSE:", round(persistence_rmse, 4))
 
 
-# Predict test data
-#test_prediction = model.predict(X_test)
-
-#test_mae = mean_absolute_error(
- #   y_test,
-  #  test_prediction
-#)
-
-#test_rmse = mean_squared_error(
-
- #   y_test,
-  #  test_prediction
-#) ** 0.5
-
-
-#print("\nTest results:")
-
-#print("MAE:")
-#print(round(test_mae,4))
-
-#print("RMSE:")
-#print(round(test_rmse,4))
-
-
 print("\nBest number of boosting rounds:")
 print(model.best_iteration + 1)
 
@@ -202,7 +166,6 @@ results.to_csv(
     index=False
 )
 
-
 # Save the trained XGBoost model
 models_folder = Path("models/xgboost")
 models_folder.mkdir(parents=True, exist_ok=True)
@@ -210,3 +173,96 @@ models_folder.mkdir(parents=True, exist_ok=True)
 model.save_model(str(models_folder / f"{experiment}_main.json"))
 
 print("\nResults and model saved successfully!")
+# Final testing on February 2023 data
+# Keeping recent January availability for February history features
+january_history = validation.loc[
+    validation["time"] >= "2023-01-25",
+    ["station_id", "time", "current_idle"]
+].copy()
+
+# Free memory before loading the large test dataset
+del train, validation, history, past
+del X_train, y_train, X_validation, y_validation
+del validation_prediction
+gc.collect()
+
+# Load February test data
+test_columns = [
+    "station_id", "time", "current_idle",
+    "current_busy", "capacity", "hour",
+    "minute", "day_of_week", "target"
+]
+test = pd.read_csv(
+    folder + "test_" + str(horizon) + ".csv",
+    usecols=test_columns
+)
+
+test["time"] = pd.to_datetime(test["time"])
+
+# Create historical features using January and February data
+# Every historical observation must precede the prediction time
+history = pd.concat([
+    january_history,
+    test[["station_id", "time", "current_idle"]]
+], ignore_index=True)
+
+for minutes, column in past_features:
+    past = history.copy()
+    past["time"] = past["time"] + pd.Timedelta(minutes=minutes)
+    past = past.rename(columns={"current_idle": column})
+
+    test = test.merge(
+        past,
+        on=["station_id", "time"],
+        how="left",
+        validate="many_to_one"
+    )
+
+test["change_last_30_min"] = (
+    test["current_idle"] - test["idle_30_min_ago"]
+)
+
+# Separate features and actual target
+X_test = test[feature_columns].astype("float32")
+y_test = test["target"]
+
+# Predict future charger availability
+test_prediction = (
+    model.predict(X_test) + test["current_idle"].to_numpy()
+)
+
+# Calculate XGBoost testing errors
+test_mae = mean_absolute_error(y_test, test_prediction)
+test_rmse = mean_squared_error(y_test, test_prediction) ** 0.5
+
+# Calculate persistence baseline on the same test rows
+persistence_test_mae = mean_absolute_error(
+    y_test, test["current_idle"]
+)
+persistence_test_rmse = mean_squared_error(
+    y_test, test["current_idle"]
+) ** 0.5
+
+print("\nFebruary Test Results:", experiment)
+print("Test rows:", len(test))
+print("XGBoost MAE:", round(test_mae, 4))
+print("XGBoost RMSE:", round(test_rmse, 4))
+print("Persistence MAE:", round(persistence_test_mae, 4))
+print("Persistence RMSE:", round(persistence_test_rmse, 4))
+
+# Save February testing results
+test_results = pd.DataFrame([{
+    "experiment": experiment,
+    "test_rows": len(test),
+    "test_mae": round(test_mae, 4),
+    "test_rmse": round(test_rmse, 4),
+    "persistence_mae": round(persistence_test_mae, 4),
+    "persistence_rmse": round(persistence_test_rmse, 4)
+}])
+
+test_results.to_csv(
+    "outputs/results/xgboost_" + experiment + "_test.csv",
+    index=False
+)
+
+print("\nTest results saved successfully!")
