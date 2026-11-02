@@ -79,39 +79,54 @@ def scale_features(data):
     data["idle_same_time_yesterday"] = data["idle_same_time_yesterday"].fillna(0)
     data["idle_same_time_last_week"] = data["idle_same_time_last_week"].fillna(0)
     return data
+# Use every training sequence for fast, every 3rd for slow
+if charger_type == "fast":
+    train_step = 1
+else:
+    train_step = 3
 
 # Create temporal sequences for TCN
-def create_sequences(data):
-    X = []
-    y = []
-    current_values = []
+def create_sequences(data, step):
+    data = data.sort_values(["station_id","time"])
+    data = data.reset_index(drop=True)
+    if data[feature_columns].isnull().values.any():
+        raise ValueError("Missing feature values found")
     station_ids = data["station_id"].unique()
+    end_positions = {}
+    total = 0
     for station_id in station_ids:
-        station = data[data["station_id"] == station_id].copy()
-        station = station.sort_values("time")
-        station = station.reset_index(drop=True)
-        times = station["time"].tolist()
+        station = data[data["station_id"] == station_id]
+        times = station["time"].to_numpy()
+        ends = np.arange(sequence_length - 1, len(station))
+        starts = ends - sequence_length + 1
+        valid = ((times[ends] - times[starts])== np.timedelta64(55, "m"))
+        ends = ends[valid]
+        offset = int(station_id) % step
+        ends = ends[offset::step]
+        end_positions[station_id] = ends
+        total = total + len(ends)
+    X = np.zeros(
+        (total, sequence_length, len(feature_columns)),
+        dtype="float32"
+    )
+    y = np.zeros(total,dtype="float32")
+    current_values = np.zeros(total,dtype="float32")
+    row = 0
+    for station_id in station_ids:
+        station = data[data["station_id"] == station_id]
         features = station[feature_columns].to_numpy(dtype="float32")
+        current_idle = (
+            station["current_idle_raw"]
+            .to_numpy(dtype="float32")
+        )
         target_change = (
-                station["target"] - station["current_idle_raw"]
+            station["target"] - station["current_idle_raw"]
         ).to_numpy(dtype="float32")
-        current_idle = station["current_idle_raw"].to_numpy(dtype="float32")
-        for i in range(sequence_length - 1,len(station)):
-            start = i - sequence_length + 1
-            # 12 readings will cover exactly 55 minutes
-            # 10:00, 10:05, ..., 10:55
-            time_difference = times[i] - times[start]
-            if time_difference != pd.Timedelta(minutes=55):
-                continue
-            sequence = features[start:i + 1]
-            if np.isnan(sequence).any():
-                continue
-            X.append(sequence)
-            y.append(target_change[i])
-            current_values.append(current_idle[i])
-    X = np.array(X,dtype="float32")
-    y = np.array(y,dtype="float32")
-    current_values = np.array(current_values,dtype="float32")
+        for i in end_positions[station_id]:
+            X[row] = features[i - sequence_length + 1:i + 1]
+            y[row] = target_change[i]
+            current_values[row] = current_idle[i]
+            row = row + 1
     return X,y,current_values
 print("\nExperiment:")
 print(experiment)
@@ -168,8 +183,8 @@ scaling_results.to_csv(
     results_folder / ("tcn_" + experiment + "_scaling.csv"),
     index=False
 )
-X_train,y_train,current_train = create_sequences(train)
-X_validation,y_validation,current_validation = create_sequences(validation)
+X_train,y_train,current_train = create_sequences(train,train_step)
+X_validation,y_validation,current_validation = create_sequences(validation,1)
 del train, validation
 print("\nTraining sequences:")
 print(len(X_train))
@@ -192,6 +207,13 @@ model = Sequential([
         kernel_size=3,
         padding="causal",
         dilation_rate=2,
+        activation="relu"
+    ),
+    Conv1D(
+        filters=16,
+        kernel_size=3,
+        padding="causal",
+        dilation_rate=4,
         activation="relu"
     ),
     # Keep only the LAST time step (the current time), like a standard TCN
@@ -292,7 +314,7 @@ if run_test:
     print(len(test))
     # Scale test data using TRAINING values only
     test = scale_features(test)
-    X_test,y_test,current_test = create_sequences(test)
+    X_test,y_test,current_test = create_sequences(test,1)
     print("\nTest sequences:")
     print(len(X_test))
     # Predict February data
