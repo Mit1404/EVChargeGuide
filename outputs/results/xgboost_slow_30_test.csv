@@ -1,0 +1,2 @@
+experiment,test_rows,test_mae,test_rmse,persistence_mae,persistence_rmse
+slow_30,2868900,0.25,0.7797,0.2571,0.8479
