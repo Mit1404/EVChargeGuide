@@ -1,0 +1,2 @@
+experiment,test_sequences,test_mae,test_rmse,persistence_mae,persistence_rmse
+fast_30,194850,0.8609,1.931,0.91,2.5756
