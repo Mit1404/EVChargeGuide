@@ -1,0 +1,2 @@
+experiment,training_sequences,validation_sequences,validation_mae,validation_rmse,persistence_mae,persistence_rmse,epochs_trained
+slow_30,3909779,3166375,0.2029,0.7072,0.2107,0.7849,16
