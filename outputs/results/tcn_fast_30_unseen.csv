@@ -1,0 +1,2 @@
+experiment,training_sequences,train_step,known_training_stations,known_validation_stations,validation_sequences,validation_mae,validation_rmse,validation_persistence_mae,validation_persistence_rmse,epochs_trained,unseen_test_stations,test_sequences,test_mae,test_rmse,persistence_mae,persistence_rmse
+fast_30,630809,1,20,20,173500,0.7349,1.6951,0.7638,2.1873,14,5,38970,0.7553,1.6297,0.787,1.8215
